@@ -1,0 +1,188 @@
+{
+  "products": [
+    {
+      "id": "automation",
+      "name": "Automation & Control",
+      "description": "Comprehensive automation solutions for industrial processes",
+      "image": "/placeholder.svg?height=400&width=600",
+      "subProducts": [
+        {
+          "id": "plc-systems",
+          "name": "PLC Systems",
+          "description": "Programmable Logic Controllers for process automation",
+          "image": "/placeholder.svg?height=300&width=450",
+          "subProducts": [
+            {
+              "id": "simatic-s7-1500",
+              "name": "SIMATIC S7-1500",
+              "description": "Advanced PLC for demanding automation tasks",
+              "image": "/placeholder.svg?height=250&width=400"
+            },
+            {
+              "id": "simatic-s7-1200",
+              "name": "SIMATIC S7-1200",
+              "description": "Compact PLC for simple automation solutions",
+              "image": "/placeholder.svg?height=250&width=400"
+            }
+          ]
+        },
+        {
+          "id": "hmi-panels",
+          "name": "HMI Panels",
+          "description": "Human Machine Interface for intuitive control",
+          "image": "/placeholder.svg?height=300&width=450",
+          "subProducts": [
+            {
+              "id": "comfort-panels",
+              "name": "Comfort Panels",
+              "description": "High-performance HMI with multi-touch",
+              "image": "/placeholder.svg?height=250&width=400"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drives",
+      "name": "Drives & Motors",
+      "description": "Variable frequency drives and motor solutions",
+      "image": "/placeholder.svg?height=400&width=600",
+      "subProducts": [
+        {
+          "id": "frequency-converters",
+          "name": "Frequency Converters",
+          "description": "Precise speed control for AC motors",
+          "image": "/placeholder.svg?height=300&width=450",
+          "subProducts": [
+            {
+              "id": "sinamics-g120",
+              "name": "SINAMICS G120",
+              "description": "Modular frequency converter",
+              "image": "/placeholder.svg?height=250&width=400"
+            }
+          ]
+        },
+        {
+          "id": "servo-drives",
+          "name": "Servo Drives",
+          "description": "High-precision motion control",
+          "image": "/placeholder.svg?height=300&width=450"
+        }
+      ]
+    },
+    {
+      "id": "power-distribution",
+      "name": "Power Distribution",
+      "description": "Reliable electrical power distribution systems",
+      "image": "/placeholder.svg?height=400&width=600",
+      "subProducts": [
+        {
+          "id": "circuit-breakers",
+          "name": "Circuit Breakers",
+          "description": "Protection devices for electrical circuits",
+          "image": "/placeholder.svg?height=300&width=450"
+        },
+        {
+          "id": "switchgear",
+          "name": "Switchgear",
+          "description": "Complete switching and protection solutions",
+          "image": "/placeholder.svg?height=300&width=450"
+        }
+      ]
+    },
+    {
+      "id": "industrial-communication",
+      "name": "Industrial Communication",
+      "description": "Networking solutions for industrial environments",
+      "image": "/placeholder.svg?height=400&width=600",
+      "subProducts": [
+        {
+          "id": "industrial-ethernet",
+          "name": "Industrial Ethernet",
+          "description": "Robust networking for factory floors",
+          "image": "/placeholder.svg?height=300&width=450"
+        },
+        {
+          "id": "wireless-systems",
+          "name": "Wireless Systems",
+          "description": "Industrial wireless communication",
+          "image": "/placeholder.svg?height=300&width=450"
+        }
+      ]
+    },
+    {
+      "id": "sensors",
+      "name": "Sensors & Instruments",
+      "description": "Precision sensors for process monitoring",
+      "image": "/placeholder.svg?height=400&width=600",
+      "subProducts": [
+        {
+          "id": "proximity-sensors",
+          "name": "Proximity Sensors",
+          "description": "Non-contact object detection",
+          "image": "/placeholder.svg?height=300&width=450"
+        },
+        {
+          "id": "pressure-transmitters",
+          "name": "Pressure Transmitters",
+          "description": "Accurate pressure measurement",
+          "image": "/placeholder.svg?height=300&width=450"
+        }
+      ]
+    },
+    {
+      "id": "safety-technology",
+      "name": "Safety Technology",
+      "description": "Comprehensive industrial safety solutions",
+      "image": "/placeholder.svg?height=400&width=600",
+      "subProducts": [
+        {
+          "id": "safety-relays",
+          "name": "Safety Relays",
+          "description": "Reliable safety circuit monitoring",
+          "image": "/placeholder.svg?height=300&width=450"
+        },
+        {
+          "id": "light-curtains",
+          "name": "Light Curtains",
+          "description": "Optical protective devices",
+          "image": "/placeholder.svg?height=300&width=450"
+        }
+      ]
+    },
+    {
+      "id": "scada-software",
+      "name": "SCADA Software",
+      "description": "Supervisory control and data acquisition systems",
+      "image": "/placeholder.svg?height=400&width=600",
+      "subProducts": [
+        {
+          "id": "wincc",
+          "name": "WinCC",
+          "description": "Advanced visualization software",
+          "image": "/placeholder.svg?height=300&width=450"
+        }
+      ]
+    },
+    {
+      "id": "industrial-pcs",
+      "name": "Industrial PCs",
+      "description": "Rugged computing solutions for harsh environments",
+      "image": "/placeholder.svg?height=400&width=600",
+      "subProducts": [
+        {
+          "id": "panel-pcs",
+          "name": "Panel PCs",
+          "description": "All-in-one industrial computers",
+          "image": "/placeholder.svg?height=300&width=450"
+        },
+        {
+          "id": "box-pcs",
+          "name": "Box PCs",
+          "description": "Compact fanless industrial computers",
+          "image": "/placeholder.svg?height=300&width=450"
+        }
+      ]
+    }
+  ]
+}

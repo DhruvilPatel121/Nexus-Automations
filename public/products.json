@@ -1,0 +1,270 @@
+[
+  {
+    "id": "product-001",
+    "name": "Industrial Automation Controller",
+    "category": "Automation",
+    "shortDescription": "Advanced controller for industrial automation with modular design and high performance.",
+    "description": "The Industrial Automation Controller represents the pinnacle of control technology, offering unparalleled performance for demanding industrial applications. With its modular architecture, it provides maximum flexibility while maintaining robust reliability in harsh environments. This controller features advanced processing capabilities, extensive I/O options, and seamless integration with existing systems.",
+    "images": ["/images/products/automation-controller-1.jpg", "/images/products/automation-controller-2.jpg"],
+    "features": [
+      "High-performance quad-core processor",
+      "Modular I/O expansion up to 1024 points",
+      "Integrated web server for remote monitoring",
+      "Support for multiple industrial protocols",
+      "Hot-swappable modules for zero downtime",
+      "Built-in cybersecurity features"
+    ],
+    "specs": {
+      "Voltage": "24V DC",
+      "Operating Temp": "-20°C to 70°C",
+      "Processor": "Quad-core 1.2 GHz",
+      "Memory": "4GB RAM, 16GB Flash",
+      "Communication": "Ethernet, PROFINET, EtherCAT",
+      "Warranty": "3 Years"
+    },
+    "downloads": [
+      {
+        "label": "User Manual",
+        "file": "/downloads/automation-controller-manual.pdf"
+      },
+      {
+        "label": "Technical Specifications",
+        "file": "/downloads/automation-controller-specs.pdf"
+      }
+    ],
+    "related": ["product-002", "product-003"]
+  },
+  {
+    "id": "product-002",
+    "name": "Variable Frequency Drive VFD-3000",
+    "category": "Drives",
+    "shortDescription": "Precision motor control with energy-efficient operation and advanced features.",
+    "description": "The VFD-3000 series represents our commitment to energy efficiency and precise motor control. Designed for applications ranging from simple pumps to complex machinery, this drive offers exceptional performance with reduced energy consumption. Its intuitive interface and comprehensive protection features make it the ideal choice for modern industrial applications.",
+    "images": ["/images/products/vfd-drive-1.jpg", "/images/products/vfd-drive-2.jpg"],
+    "features": [
+      "Energy savings up to 30%",
+      "Advanced vector control",
+      "Built-in PLC functionality",
+      "Color touchscreen interface",
+      "Predictive maintenance alerts",
+      "Multiple motor control modes"
+    ],
+    "specs": {
+      "Power Range": "0.75 kW to 630 kW",
+      "Voltage": "380-480V AC",
+      "Frequency": "0-400 Hz",
+      "Efficiency": "Up to 98%",
+      "Protection": "IP20/IP54",
+      "Warranty": "2 Years"
+    },
+    "downloads": [
+      {
+        "label": "Installation Guide",
+        "file": "/downloads/vfd-installation.pdf"
+      },
+      {
+        "label": "Quick Start Manual",
+        "file": "/downloads/vfd-quickstart.pdf"
+      }
+    ],
+    "related": ["product-001", "product-004"]
+  },
+  {
+    "id": "product-003",
+    "name": "Industrial HMI Panel Pro",
+    "category": "Automation",
+    "shortDescription": "Multi-touch human-machine interface with stunning visualization capabilities.",
+    "description": "The HMI Panel Pro delivers an exceptional user experience with its responsive multi-touch display and powerful visualization capabilities. Built for industrial environments, it combines elegant design with rugged reliability. The intuitive interface reduces operator training time while providing comprehensive system insights through advanced graphics and real-time data visualization.",
+    "images": ["/images/products/hmi-panel-1.jpg", "/images/products/hmi-panel-2.jpg"],
+    "features": [
+      "10.1\" to 21.5\" multi-touch display",
+      "Full HD resolution (1920x1080)",
+      "Projected capacitive touch technology",
+      "Industrial-grade construction",
+      "Web-based visualization",
+      "Alarm management system"
+    ],
+    "specs": {
+      "Display Size": "15.6 inch",
+      "Resolution": "1920 x 1080",
+      "Brightness": "400 cd/m²",
+      "Operating Temp": "0°C to 50°C",
+      "Protection": "IP65 front panel",
+      "Warranty": "3 Years"
+    },
+    "downloads": [
+      {
+        "label": "Configuration Manual",
+        "file": "/downloads/hmi-configuration.pdf"
+      }
+    ],
+    "related": ["product-001", "product-005"]
+  },
+  {
+    "id": "product-004",
+    "name": "Servo Motor System SM-400",
+    "category": "Motors",
+    "shortDescription": "High-precision servo motors for demanding motion control applications.",
+    "description": "The SM-400 Servo Motor System delivers exceptional precision and dynamic performance for the most demanding motion control applications. With its advanced feedback system and optimized motor design, it provides smooth operation across the entire speed range. Perfect for robotics, packaging, and precision manufacturing applications.",
+    "images": ["/images/products/servo-motor-1.jpg", "/images/products/servo-motor-2.jpg"],
+    "features": [
+      "High torque density",
+      "20-bit absolute encoder",
+      "Low cogging torque",
+      "Integrated safety functions",
+      "Maintenance-free operation",
+      "Quick commissioning"
+    ],
+    "specs": {
+      "Power Range": "50W to 15kW",
+      "Voltage": "220V AC",
+      "Speed Range": "0-6000 RPM",
+      "Accuracy": "±0.01°",
+      "Protection": "IP65",
+      "Warranty": "2 Years"
+    },
+    "downloads": [
+      {
+        "label": "Technical Data Sheet",
+        "file": "/downloads/servo-motor-datasheet.pdf"
+      }
+    ],
+    "related": ["product-002", "product-006"]
+  },
+  {
+    "id": "product-005",
+    "name": "Industrial Ethernet Switch IES-2000",
+    "category": "Communication",
+    "shortDescription": "Managed industrial Ethernet switch for reliable factory floor networking.",
+    "description": "The IES-2000 Industrial Ethernet Switch provides reliable, high-speed networking for demanding factory floor applications. With advanced management features, redundancy protocols, and rugged construction, it ensures continuous network availability. Designed specifically for industrial automation, it offers the performance and reliability required for mission-critical operations.",
+    "images": ["/images/products/ethernet-switch-1.jpg", "/images/products/ethernet-switch-2.jpg"],
+    "features": [
+      "24 Gigabit Ethernet ports",
+      "Ring redundancy <20ms",
+      "VLAN and QoS support",
+      "Web-based management",
+      "DIN rail mounting",
+      "Extended temperature range"
+    ],
+    "specs": {
+      "Ports": "24x GbE + 4x SFP",
+      "Bandwidth": "48 Gbps",
+      "Operating Temp": "-40°C to 75°C",
+      "Power": "24-48V DC",
+      "Protection": "IP30",
+      "Warranty": "5 Years"
+    },
+    "downloads": [
+      {
+        "label": "User Manual",
+        "file": "/downloads/switch-manual.pdf"
+      },
+      {
+        "label": "Configuration Guide",
+        "file": "/downloads/switch-config.pdf"
+      }
+    ],
+    "related": ["product-001", "product-003"]
+  },
+  {
+    "id": "product-006",
+    "name": "Safety PLC S-Guard",
+    "category": "Safety",
+    "shortDescription": "Certified safety controller for machine and personnel protection.",
+    "description": "S-Guard Safety PLC provides comprehensive safety functionality with full compliance to international safety standards. It integrates seamlessly with standard automation systems while maintaining complete separation of safety functions. With intuitive programming and extensive diagnostic capabilities, it simplifies safety system implementation and maintenance.",
+    "images": ["/images/products/safety-plc-1.jpg", "/images/products/safety-plc-2.jpg"],
+    "features": [
+      "Safety integrity level SIL 3",
+      "Certified to IEC 61508",
+      "Integrated safety and standard I/O",
+      "Safety function blocks library",
+      "Real-time diagnostics",
+      "Redundant processor option"
+    ],
+    "specs": {
+      "Safety Level": "SIL 3, PLe, Cat 4",
+      "Voltage": "24V DC",
+      "Safety I/O": "Up to 512 points",
+      "Response Time": "<20ms",
+      "Certifications": "TÜV, UL, CE",
+      "Warranty": "3 Years"
+    },
+    "downloads": [
+      {
+        "label": "Safety Manual",
+        "file": "/downloads/safety-plc-manual.pdf"
+      },
+      {
+        "label": "Certification Documents",
+        "file": "/downloads/safety-plc-certs.pdf"
+      }
+    ],
+    "related": ["product-001", "product-007"]
+  },
+  {
+    "id": "product-007",
+    "name": "Pressure Transmitter PT-500",
+    "category": "Sensors",
+    "shortDescription": "High-accuracy pressure measurement for process control applications.",
+    "description": "The PT-500 Pressure Transmitter combines exceptional accuracy with long-term stability for critical process control applications. Its advanced sensor technology and digital signal processing deliver reliable measurements even in challenging conditions. The robust design withstands harsh environments while maintaining precise calibration over extended periods.",
+    "images": ["/images/products/pressure-transmitter-1.jpg", "/images/products/pressure-transmitter-2.jpg"],
+    "features": [
+      "Accuracy ±0.075%",
+      "4-20mA + HART protocol",
+      "Display with local configuration",
+      "Overpressure protection",
+      "SIL 2/3 certification available",
+      "5-year stability guarantee"
+    ],
+    "specs": {
+      "Pressure Range": "0-600 bar",
+      "Accuracy": "±0.075% of span",
+      "Operating Temp": "-40°C to 85°C",
+      "Output": "4-20mA, HART",
+      "Protection": "IP67",
+      "Warranty": "5 Years"
+    },
+    "downloads": [
+      {
+        "label": "Operating Instructions",
+        "file": "/downloads/pressure-transmitter-manual.pdf"
+      }
+    ],
+    "related": ["product-008", "product-001"]
+  },
+  {
+    "id": "product-008",
+    "name": "Industrial UPS Power Guard 5000",
+    "category": "Power",
+    "shortDescription": "Uninterruptible power supply for critical industrial systems protection.",
+    "description": "Power Guard 5000 delivers reliable backup power for critical industrial automation systems. With online double-conversion technology, it provides clean, stable power while protecting against all power disturbances. The modular design allows for easy expansion and maintenance, ensuring maximum uptime for your operations.",
+    "images": ["/images/products/ups-1.jpg", "/images/products/ups-2.jpg"],
+    "features": [
+      "Online double-conversion",
+      "Hot-swappable batteries",
+      "Network management card",
+      "Generator compatibility",
+      "Automatic bypass",
+      "LCD display with diagnostics"
+    ],
+    "specs": {
+      "Power": "5000 VA / 4500 W",
+      "Voltage": "208/220/230/240V",
+      "Backup Time": "5-15 minutes",
+      "Efficiency": "Up to 95%",
+      "Protection": "Surge, spike, sag",
+      "Warranty": "3 Years"
+    },
+    "downloads": [
+      {
+        "label": "Installation Manual",
+        "file": "/downloads/ups-installation.pdf"
+      },
+      {
+        "label": "Battery Maintenance Guide",
+        "file": "/downloads/ups-battery-guide.pdf"
+      }
+    ],
+    "related": ["product-001", "product-005"]
+  }
+]

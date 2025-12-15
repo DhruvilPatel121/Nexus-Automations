@@ -1,0 +1,759 @@
+{
+  "products": [
+    {
+      "id": "p1",
+      "name": "Industrial Automation",
+      "type": "category",
+      "image": "/images/products/automation.jpg",
+      "description": "Comprehensive automation solutions for modern industrial operations, from PLCs to complete system integration.",
+      "children": [
+        {
+          "id": "p1-1",
+          "name": "PLC Systems",
+          "type": "subcategory",
+          "image": "/images/products/plc-systems.jpg",
+          "description": "Modular programmable logic controllers for all automation requirements.",
+          "children": [
+            {
+              "id": "p1-1-1",
+              "name": "Advanced PLC Controller X-5000",
+              "type": "product",
+              "image": "/images/products/plc-x5000.jpg",
+              "description": "High-performance PLC with advanced processing capabilities and modular design for complex automation tasks.",
+              "details": {
+                "features": [
+                  "Quad-core 1.2 GHz processor for fast execution",
+                  "Modular I/O expansion up to 1024 points",
+                  "Integrated web server for remote monitoring",
+                  "Support for PROFINET, EtherCAT, Modbus TCP",
+                  "Hot-swappable modules for zero downtime",
+                  "Built-in cybersecurity features"
+                ],
+                "specs": {
+                  "Processor": "Quad-core ARM 1.2 GHz",
+                  "Memory": "4GB RAM, 16GB Flash",
+                  "Voltage": "24V DC",
+                  "Operating Temperature": "-20°C to 70°C",
+                  "Communication Protocols": "PROFINET, EtherCAT, Modbus TCP/IP",
+                  "I/O Capacity": "Up to 1024 I/O points",
+                  "Protection Rating": "IP20",
+                  "Certifications": "CE, UL, cUL",
+                  "Warranty": "3 Years"
+                },
+                "downloads": [
+                  {
+                    "label": "Product Brochure",
+                    "file": "/downloads/plc-x5000-brochure.pdf"
+                  },
+                  {
+                    "label": "Technical Manual",
+                    "file": "/downloads/plc-x5000-manual.pdf"
+                  },
+                  {
+                    "label": "Quick Start Guide",
+                    "file": "/downloads/plc-x5000-quickstart.pdf"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "p1-1-2",
+              "name": "Compact PLC C-200",
+              "type": "product",
+              "image": "/images/products/plc-c200.jpg",
+              "description": "Space-saving PLC solution for small to medium automation applications with exceptional value.",
+              "details": {
+                "features": [
+                  "Compact design saves panel space",
+                  "Built-in I/O: 14 inputs, 10 outputs",
+                  "Expandable up to 128 I/O points",
+                  "Ethernet connectivity standard",
+                  "Free programming software",
+                  "Perfect for machine control"
+                ],
+                "specs": {
+                  "Processor": "Single-core 200 MHz",
+                  "Memory": "512MB RAM, 2GB Flash",
+                  "Voltage": "24V DC",
+                  "Operating Temperature": "-10°C to 60°C",
+                  "Built-in I/O": "14 DI, 10 DO",
+                  "Communication": "Ethernet, RS485",
+                  "Dimensions": "120 x 90 x 75 mm",
+                  "Warranty": "2 Years"
+                },
+                "downloads": [
+                  {
+                    "label": "User Manual",
+                    "file": "/downloads/plc-c200-manual.pdf"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "p1-2",
+          "name": "HMI & Visualization",
+          "type": "subcategory",
+          "image": "/images/products/hmi-panels.jpg",
+          "description": "Human-machine interface solutions with stunning visualizations and intuitive operation.",
+          "children": [
+            {
+              "id": "p1-2-1",
+              "name": "Industrial Touch Panel Pro 15",
+              "type": "product",
+              "image": "/images/products/hmi-pro15.jpg",
+              "description": "15.6-inch multi-touch panel with Full HD display and powerful visualization capabilities.",
+              "details": {
+                "features": [
+                  "15.6\" Full HD multi-touch display",
+                  "Projected capacitive touch technology",
+                  "Powerful quad-core processor",
+                  "Web-based visualization",
+                  "Alarm management with email notifications",
+                  "Recipe management",
+                  "VNC remote access"
+                ],
+                "specs": {
+                  "Display Size": "15.6 inch",
+                  "Resolution": "1920 x 1080 Full HD",
+                  "Touch Technology": "Projected Capacitive (PCAP)",
+                  "Brightness": "400 cd/m²",
+                  "Viewing Angle": "170° horizontal / vertical",
+                  "Processor": "Quad-core ARM Cortex-A9",
+                  "Operating Temperature": "0°C to 50°C",
+                  "Protection": "IP65 front panel",
+                  "Warranty": "3 Years"
+                },
+                "downloads": [
+                  {
+                    "label": "Configuration Manual",
+                    "file": "/downloads/hmi-pro15-config.pdf"
+                  },
+                  {
+                    "label": "Installation Guide",
+                    "file": "/downloads/hmi-pro15-install.pdf"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "p1-3",
+          "name": "Industrial Networking",
+          "type": "subcategory",
+          "image": "/images/products/networking.jpg",
+          "description": "Robust networking solutions for reliable industrial communications.",
+          "children": [
+            {
+              "id": "p1-3-1",
+              "name": "Managed Industrial Switch 24-Port",
+              "type": "product",
+              "image": "/images/products/switch-24.jpg",
+              "description": "24-port Gigabit managed switch with advanced features for industrial automation networks.",
+              "details": {
+                "features": [
+                  "24x Gigabit Ethernet ports + 4x SFP",
+                  "Ring redundancy recovery < 20ms",
+                  "VLAN, QoS, IGMP snooping",
+                  "Web-based management",
+                  "DIN rail mounting",
+                  "Extended temperature range -40°C to 75°C"
+                ],
+                "specs": {
+                  "Ports": "24x 10/100/1000Base-T(X), 4x SFP",
+                  "Switching Capacity": "48 Gbps",
+                  "Power Supply": "24-48V DC redundant input",
+                  "Operating Temperature": "-40°C to 75°C",
+                  "Protection": "IP30",
+                  "MTBF": "> 300,000 hours",
+                  "Warranty": "5 Years"
+                },
+                "downloads": [
+                  {
+                    "label": "User Manual",
+                    "file": "/downloads/switch-24-manual.pdf"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Drive Technology",
+      "type": "category",
+      "image": "/images/products/drives.jpg",
+      "description": "Advanced drive solutions for precise motion control and energy-efficient operation.",
+      "children": [
+        {
+          "id": "p2-1",
+          "name": "Variable Frequency Drives",
+          "type": "subcategory",
+          "image": "/images/products/vfd.jpg",
+          "description": "Energy-efficient VFDs for AC motor control with advanced features.",
+          "children": [
+            {
+              "id": "p2-1-1",
+              "name": "VFD Pro Series 3000",
+              "type": "product",
+              "image": "/images/products/vfd-3000.jpg",
+              "description": "High-performance VFD with energy savings up to 30% and built-in PLC functionality.",
+              "details": {
+                "features": [
+                  "Energy savings up to 30%",
+                  "Advanced vector control",
+                  "Built-in PLC with ladder logic",
+                  "7-inch color touchscreen",
+                  "Predictive maintenance with AI",
+                  "Multiple motor control modes",
+                  "Safe torque off (STO) integrated"
+                ],
+                "specs": {
+                  "Power Range": "0.75 kW to 630 kW",
+                  "Input Voltage": "380-480V AC, 3-phase",
+                  "Output Frequency": "0-400 Hz",
+                  "Efficiency": "Up to 98%",
+                  "Overload Capacity": "150% for 60s",
+                  "Protection": "IP20 / IP54 (optional)",
+                  "Communication": "Modbus RTU, PROFINET, EtherNet/IP",
+                  "Warranty": "2 Years"
+                },
+                "downloads": [
+                  {
+                    "label": "Product Catalog",
+                    "file": "/downloads/vfd-3000-catalog.pdf"
+                  },
+                  {
+                    "label": "Quick Start Guide",
+                    "file": "/downloads/vfd-3000-quickstart.pdf"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "p2-2",
+          "name": "Servo Drives & Motors",
+          "type": "subcategory",
+          "image": "/images/products/servo.jpg",
+          "description": "High-precision servo systems for demanding motion control applications.",
+          "children": [
+            {
+              "id": "p2-2-1",
+              "name": "Servo System Ultra 5000",
+              "type": "product",
+              "image": "/images/products/servo-5000.jpg",
+              "description": "Ultra-high precision servo system with 23-bit encoder and advanced control algorithms.",
+              "details": {
+                "features": [
+                  "23-bit absolute multi-turn encoder",
+                  "High torque density design",
+                  "Low cogging torque < 1%",
+                  "Integrated safety functions SIL 2",
+                  "One-cable technology",
+                  "Quick auto-tuning",
+                  "Vibration suppression"
+                ],
+                "specs": {
+                  "Power Range": "50W to 15kW",
+                  "Voltage": "220V AC single/three-phase",
+                  "Speed Range": "0-6000 RPM",
+                  "Position Accuracy": "±0.01°",
+                  "Encoder Resolution": "23-bit (8,388,608 ppr)",
+                  "Protection": "IP65",
+                  "Cooling": "Natural / Forced air",
+                  "Warranty": "2 Years"
+                },
+                "downloads": [
+                  {
+                    "label": "Technical Datasheet",
+                    "file": "/downloads/servo-5000-datasheet.pdf"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Power Distribution",
+      "type": "category",
+      "image": "/images/products/power.jpg",
+      "description": "Reliable power distribution and protection solutions for industrial installations.",
+      "children": [
+        {
+          "id": "p3-1",
+          "name": "Industrial UPS Systems",
+          "type": "subcategory",
+          "image": "/images/products/ups.jpg",
+          "description": "Uninterruptible power supplies for critical industrial systems.",
+          "children": [
+            {
+              "id": "p3-1-1",
+              "name": "PowerGuard Industrial 10kVA",
+              "type": "product",
+              "image": "/images/products/ups-10k.jpg",
+              "description": "Industrial-grade online UPS with double conversion and hot-swappable batteries.",
+              "details": {
+                "features": [
+                  "Online double-conversion topology",
+                  "Hot-swappable battery modules",
+                  "Network management card included",
+                  "Generator compatibility",
+                  "Automatic bypass switch",
+                  "LCD display with diagnostics",
+                  "Remote monitoring via web interface"
+                ],
+                "specs": {
+                  "Capacity": "10kVA / 9kW",
+                  "Input Voltage": "208/220/230/240V AC",
+                  "Output Voltage": "208/220/230/240V AC",
+                  "Backup Time": "10-30 minutes (configurable)",
+                  "Efficiency": "Up to 96% (online mode)",
+                  "Battery Type": "Sealed lead-acid, hot-swappable",
+                  "Operating Temperature": "0°C to 40°C",
+                  "Warranty": "3 Years (1 Year battery)"
+                },
+                "downloads": [
+                  {
+                    "label": "Installation Manual",
+                    "file": "/downloads/ups-10k-installation.pdf"
+                  },
+                  {
+                    "label": "Battery Maintenance Guide",
+                    "file": "/downloads/ups-battery-guide.pdf"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "name": "Safety Technology",
+      "type": "category",
+      "image": "/images/products/safety.jpg",
+      "description": "Comprehensive safety solutions protecting personnel and equipment in industrial environments.",
+      "children": [
+        {
+          "id": "p4-1",
+          "name": "Safety Controllers",
+          "type": "subcategory",
+          "image": "/images/products/safety-plc.jpg",
+          "description": "Certified safety PLCs meeting highest safety standards.",
+          "children": [
+            {
+              "id": "p4-1-1",
+              "name": "SafeGuard PLC SIL 3",
+              "type": "product",
+              "image": "/images/products/safeguard.jpg",
+              "description": "Safety PLC certified to SIL 3 / PLe for critical safety applications.",
+              "details": {
+                "features": [
+                  "Safety Integrity Level SIL 3",
+                  "Performance Level PLe, Category 4",
+                  "Redundant processor architecture",
+                  "Integrated safety and standard I/O",
+                  "Comprehensive safety function library",
+                  "Diagnostic coverage > 99%",
+                  "TÜV certified"
+                ],
+                "specs": {
+                  "Safety Level": "SIL 3, PLe, Cat 4",
+                  "Voltage": "24V DC",
+                  "Safety I/O": "Up to 512 points",
+                  "Response Time": "< 20ms",
+                  "Operating Temperature": "-25°C to 60°C",
+                  "Certifications": "TÜV, UL, CE, IEC 61508",
+                  "MTBF": "> 50 years",
+                  "Warranty": "5 Years"
+                },
+                "downloads": [
+                  {
+                    "label": "Safety Manual",
+                    "file": "/downloads/safeguard-manual.pdf"
+                  },
+                  {
+                    "label": "Certification Documents",
+                    "file": "/downloads/safeguard-certs.pdf"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "p4-2",
+          "name": "Safety Sensors",
+          "type": "subcategory",
+          "image": "/images/products/safety-sensors.jpg",
+          "description": "Safety light curtains, laser scanners, and safety switches.",
+          "children": [
+            {
+              "id": "p4-2-1",
+              "name": "Safety Light Curtain Type 4",
+              "type": "product",
+              "image": "/images/products/light-curtain.jpg",
+              "description": "Type 4 safety light curtain with muting and blanking functions for machine safeguarding.",
+              "details": {
+                "features": [
+                  "Type 4 / SIL 3 performance",
+                  "Muting function for material handling",
+                  "Floating blanking capability",
+                  "Aligned LED indicators",
+                  "Cascadable up to 4 units",
+                  "Diagnostic outputs",
+                  "M12 quick connectors"
+                ],
+                "specs": {
+                  "Safety Category": "Type 4, SIL 3, PLe",
+                  "Protected Height": "300mm to 1800mm",
+                  "Resolution": "14mm / 30mm",
+                  "Range": "0-20 meters",
+                  "Response Time": "< 15ms",
+                  "Protection": "IP65",
+                  "Operating Temperature": "-10°C to 55°C",
+                  "Warranty": "3 Years"
+                },
+                "downloads": [
+                  {
+                    "label": "Installation Guide",
+                    "file": "/downloads/light-curtain-install.pdf"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "name": "Process Instrumentation",
+      "type": "category",
+      "image": "/images/products/instrumentation.jpg",
+      "description": "Precision measurement and control instrumentation for process industries.",
+      "children": [
+        {
+          "id": "p5-1",
+          "name": "Pressure Transmitters",
+          "type": "subcategory",
+          "image": "/images/products/pressure.jpg",
+          "description": "High-accuracy pressure measurement for critical processes.",
+          "children": [
+            {
+              "id": "p5-1-1",
+              "name": "PressurePro PT-1000",
+              "type": "product",
+              "image": "/images/products/pt1000.jpg",
+              "description": "Premium pressure transmitter with ±0.05% accuracy and 10-year stability.",
+              "details": {
+                "features": [
+                  "Accuracy ±0.05% of span",
+                  "10-year stability guarantee",
+                  "HART, PROFIBUS PA, Foundation Fieldbus",
+                  "Graphical display with push-button configuration",
+                  "Overpressure protection 400%",
+                  "SIL 2/3 certification",
+                  "Stainless steel wetted parts"
+                ],
+                "specs": {
+                  "Pressure Range": "0-1 bar to 0-600 bar",
+                  "Accuracy": "±0.05% of calibrated span",
+                  "Operating Temperature": "-40°C to 85°C",
+                  "Process Connection": "1/2\" NPT, G1/2, various flanges",
+                  "Output": "4-20mA + HART / Digital fieldbus",
+                  "Protection": "IP67 / IP68",
+                  "Material": "316L Stainless Steel",
+                  "Warranty": "10 Years"
+                },
+                "downloads": [
+                  {
+                    "label": "Operating Manual",
+                    "file": "/downloads/pt1000-manual.pdf"
+                  },
+                  {
+                    "label": "Calibration Certificate",
+                    "file": "/downloads/pt1000-calibration.pdf"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "p5-2",
+          "name": "Flow Meters",
+          "type": "subcategory",
+          "image": "/images/products/flow.jpg",
+          "description": "Precision flow measurement for liquids and gases.",
+          "children": [
+            {
+              "id": "p5-2-1",
+              "name": "FlowMaster Electromagnetic FM-500",
+              "type": "product",
+              "image": "/images/products/fm500.jpg",
+              "description": "Electromagnetic flow meter with exceptional accuracy and minimal pressure drop.",
+              "details": {
+                "features": [
+                  "Accuracy ±0.2% of reading",
+                  "Bi-directional flow measurement",
+                  "No moving parts, no pressure drop",
+                  "Self-diagnostic functions",
+                  "Empty pipe detection",
+                  "ATEX / IECEx certified for hazardous areas",
+                  "Multiple liner and electrode materials"
+                ],
+                "specs": {
+                  "Pipe Size": "DN10 to DN2000",
+                  "Accuracy": "±0.2% of reading",
+                  "Flow Velocity": "0.01 to 10 m/s",
+                  "Process Temperature": "-20°C to 180°C",
+                  "Process Pressure": "PN10, PN16, PN25, PN40",
+                  "Output": "4-20mA, Pulse, HART, Modbus, PROFIBUS",
+                  "Protection": "IP67 / IP68",
+                  "Warranty": "5 Years"
+                },
+                "downloads": [
+                  {
+                    "label": "Installation Manual",
+                    "file": "/downloads/fm500-install.pdf"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "name": "Energy Management",
+      "type": "category",
+      "image": "/images/products/energy.jpg",
+      "description": "Smart energy monitoring and management solutions for optimized consumption.",
+      "children": [
+        {
+          "id": "p6-1",
+          "name": "Power Monitoring",
+          "type": "subcategory",
+          "image": "/images/products/power-monitoring.jpg",
+          "description": "Advanced power quality and energy monitoring devices.",
+          "children": [
+            {
+              "id": "p6-1-1",
+              "name": "EnergyMonitor Pro EM-3000",
+              "type": "product",
+              "image": "/images/products/em3000.jpg",
+              "description": "Multi-channel energy meter with power quality analysis and cloud connectivity.",
+              "details": {
+                "features": [
+                  "32 measurement channels",
+                  "Class 0.2S accuracy",
+                  "Power quality monitoring to IEC 61000-4-30 Class A",
+                  "Harmonics analysis up to 63rd order",
+                  "Event recording and waveform capture",
+                  "Cloud connectivity for remote monitoring",
+                  "Modbus TCP, MQTT, OPC UA"
+                ],
+                "specs": {
+                  "Accuracy": "Class 0.2S (IEC 62053-22)",
+                  "Voltage Range": "57-480V AC L-N",
+                  "Current Inputs": "Up to 32 channels via CTs",
+                  "Sampling Rate": "512 samples/cycle",
+                  "Communication": "Ethernet, RS485, Modbus TCP, MQTT",
+                  "Display": "7-inch color touchscreen",
+                  "Operating Temperature": "-20°C to 60°C",
+                  "Warranty": "5 Years"
+                },
+                "downloads": [
+                  {
+                    "label": "User Manual",
+                    "file": "/downloads/em3000-manual.pdf"
+                  },
+                  {
+                    "label": "Setup Guide",
+                    "file": "/downloads/em3000-setup.pdf"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "name": "Robotics & Motion",
+      "type": "category",
+      "image": "/images/products/robotics.jpg",
+      "description": "Industrial robotics and advanced motion control solutions.",
+      "children": [
+        {
+          "id": "p7-1",
+          "name": "Industrial Robots",
+          "type": "subcategory",
+          "image": "/images/products/robots.jpg",
+          "description": "6-axis industrial robots for assembly, welding, and material handling.",
+          "children": [
+            {
+              "id": "p7-1-1",
+              "name": "RoboArm 6-Axis RA-600",
+              "type": "product",
+              "image": "/images/products/ra600.jpg",
+              "description": "Versatile 6-axis robot with 600kg payload and 2.8m reach for heavy-duty applications.",
+              "details": {
+                "features": [
+                  "600kg payload capacity",
+                  "2.8m reach radius",
+                  "Repeatability ±0.08mm",
+                  "IP67 protection (optional)",
+                  "Integrated vision system ready",
+                  "Force torque sensor compatible",
+                  "Easy programming with teach pendant"
+                ],
+                "specs": {
+                  "Axes": "6",
+                  "Payload": "600 kg",
+                  "Reach": "2800 mm",
+                  "Repeatability": "±0.08 mm",
+                  "Max Speed": "J1: 120°/s",
+                  "Protection": "IP54 (IP67 optional)",
+                  "Mounting": "Floor, wall, ceiling, angle",
+                  "Warranty": "2 Years"
+                },
+                "downloads": [
+                  {
+                    "label": "Robot Manual",
+                    "file": "/downloads/ra600-manual.pdf"
+                  },
+                  {
+                    "label": "Programming Guide",
+                    "file": "/downloads/ra600-programming.pdf"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "name": "Software & Analytics",
+      "type": "category",
+      "image": "/images/products/software.jpg",
+      "description": "Industrial software solutions for automation, analytics, and digital transformation.",
+      "children": [
+        {
+          "id": "p8-1",
+          "name": "SCADA Systems",
+          "type": "subcategory",
+          "image": "/images/products/scada.jpg",
+          "description": "Supervisory control and data acquisition systems for plant-wide monitoring.",
+          "children": [
+            {
+              "id": "p8-1-1",
+              "name": "IndustrialVision SCADA Pro",
+              "type": "product",
+              "image": "/images/products/scada-pro.jpg",
+              "description": "Enterprise SCADA platform with unlimited tags, advanced analytics, and mobile access.",
+              "details": {
+                "features": [
+                  "Unlimited tags and clients",
+                  "Web-based thin client access",
+                  "Mobile apps for iOS and Android",
+                  "Built-in historian with data compression",
+                  "Advanced alarming with intelligent filtering",
+                  "Recipe management",
+                  "Integration with MES and ERP systems",
+                  "OPC UA, Modbus, PROFINET drivers included"
+                ],
+                "specs": {
+                  "Platform": "Windows Server 2019/2022, Linux",
+                  "Database": "SQL Server, PostgreSQL, MySQL",
+                  "Client Access": "Web browser, desktop app, mobile",
+                  "Tag Capacity": "Unlimited",
+                  "Redundancy": "Hot standby server redundancy",
+                  "Security": "Role-based access, SSL/TLS, audit trail",
+                  "Support": "24/7 technical support",
+                  "License": "Perpetual or subscription"
+                },
+                "downloads": [
+                  {
+                    "label": "Product Overview",
+                    "file": "/downloads/scada-pro-overview.pdf"
+                  },
+                  {
+                    "label": "System Requirements",
+                    "file": "/downloads/scada-pro-requirements.pdf"
+                  },
+                  {
+                    "label": "Trial Version",
+                    "file": "/downloads/scada-pro-trial.exe"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "p8-2",
+          "name": "Analytics & AI",
+          "type": "subcategory",
+          "image": "/images/products/analytics.jpg",
+          "description": "AI-powered analytics for predictive maintenance and process optimization.",
+          "children": [
+            {
+              "id": "p8-2-1",
+              "name": "PredictAI Platform",
+              "type": "product",
+              "image": "/images/products/predictai.jpg",
+              "description": "AI-powered predictive maintenance platform reducing downtime by up to 70%.",
+              "details": {
+                "features": [
+                  "Machine learning algorithms for failure prediction",
+                  "Real-time anomaly detection",
+                  "Remaining useful life (RUL) estimation",
+                  "Root cause analysis",
+                  "Integration with existing SCADA and historians",
+                  "Mobile notifications",
+                  "Customizable dashboards and reports"
+                ],
+                "specs": {
+                  "Deployment": "Cloud, on-premise, hybrid",
+                  "Data Sources": "OPC UA, MQTT, REST API, CSV import",
+                  "ML Models": "Deep learning, random forest, XGBoost",
+                  "Scalability": "1 to 10,000+ assets",
+                  "Updates": "Model retraining every 24 hours",
+                  "API": "RESTful API for integration",
+                  "Support": "Standard or premium support plans",
+                  "License": "Per asset, annual subscription"
+                },
+                "downloads": [
+                  {
+                    "label": "Platform Brochure",
+                    "file": "/downloads/predictai-brochure.pdf"
+                  },
+                  {
+                    "label": "Case Studies",
+                    "file": "/downloads/predictai-cases.pdf"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
