@@ -285,7 +285,7 @@
       "id": "p3",
       "name": "Power Distribution",
       "type": "category",
-      "image": "/images/products/power.jpg",
+      "image": "/images/products/power.png",
       "description": "Reliable power distribution and protection solutions for industrial installations.",
       "children": [
         {
@@ -539,7 +539,7 @@
       "id": "p6",
       "name": "Energy Management",
       "type": "category",
-      "image": "/images/products/energy.jpg",
+      "image": "/images/products/energy.png",
       "description": "Smart energy monitoring and management solutions for optimized consumption.",
       "children": [
         {
@@ -595,7 +595,7 @@
       "id": "p7",
       "name": "Robotics & Motion",
       "type": "category",
-      "image": "/images/products/robotics.jpg",
+      "image": "/images/products/robotics.png",
       "description": "Industrial robotics and advanced motion control solutions.",
       "children": [
         {
@@ -651,7 +651,7 @@
       "id": "p8",
       "name": "Software & Analytics",
       "type": "category",
-      "image": "/images/products/software.jpg",
+      "image": "/images/products/software.png",
       "description": "Industrial software solutions for automation, analytics, and digital transformation.",
       "children": [
         {

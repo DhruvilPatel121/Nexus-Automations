@@ -42,10 +42,11 @@ export default function IndustriesPage() {
 
   return (
     <main className="min-h-screen bg-white">
-      <div className="bg-gradient-to-r from-[#009999] to-[#007373] text-white py-20">
+      {/* <div className="bg-gradient-to-r from-[#009999] to-[#007373] text-white py-20"> */}
+      <div className="bg-gradient-to-r from-[#002B5C] to-[#003a7a] text-white py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl sm:text-5xl font-bold mb-4 text-balance">Industries We Serve</h1>
-          <p className="text-xl text-white/90 leading-relaxed max-w-3xl">
+          <p className="text-xl text-white/90 leading-relaxed max-w-4xl">
             Delivering specialized automation solutions across diverse industrial sectors worldwide
           </p>
         </div>
@@ -92,7 +93,8 @@ export default function IndustriesPage() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 bg-[#009999] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#007373] transition-colors shadow-lg"
+            // className="inline-flex items-center gap-2 bg-[#009999] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#007373] transition-colors shadow-lg"
+            className="inline-flex items-center gap-2 bg-[#002B5C] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#003a7a] transition-all transform hover:scale-105 shadow-lg"
           >
             Contact Our Team
             <ArrowRight size={20} />

@@ -39,7 +39,7 @@ export default function Header() {
           </nav>
 
           {/* Search and Mobile Menu */}
-          <div className="flex items-center gap-4">
+          {/* <div className="flex items-center gap-4">
             <button className="hidden md:flex p-2 hover:text-[#009999] transition-colors" aria-label="Search">
               <Search size={20} />
             </button>
@@ -50,7 +50,7 @@ export default function Header() {
             >
               {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
-          </div>
+          </div> */}
         </div>
 
         {/* Mobile Navigation */}

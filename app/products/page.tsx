@@ -46,13 +46,11 @@ export default function ProductsPage() {
   const currentLevel =
     breadcrumb.length > 0 ? breadcrumb[breadcrumb.length - 1].children || [] : productData?.products || []
 
+  // >>> FIX: push the clicked node (including product) to breadcrumb so details open
   const handleNodeClick = (node: ProductNode) => {
-    if (node.type === "product") {
-      // Do nothing, show details in same view
-    } else {
-      setBreadcrumb([...breadcrumb, node])
-    }
+    setBreadcrumb([...breadcrumb, node])
   }
+  // <<< FIX
 
   const handleBreadcrumbClick = (index: number) => {
     if (index === -1) {
@@ -139,17 +137,23 @@ export default function ProductsPage() {
             </div>
 
             <div>
-              <h2 className="text-3xl font-bold mb-6 text-[#002B5C]">Key Features</h2>
-              <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-xl border border-gray-200 mb-8">
-                <ul className="space-y-3">
-                  {currentProduct.details?.features.map((feature, idx) => (
-                    <li key={idx} className="flex items-start gap-3">
-                      <div className="w-2 h-2 rounded-full bg-[#009999] mt-2 flex-shrink-0" />
-                      <span className="text-gray-700 leading-relaxed">{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              {/* >>> Only show features section when present */}
+              {Array.isArray(currentProduct.details?.features) && currentProduct.details!.features.length > 0 && (
+                <>
+                  <h2 className="text-3xl font-bold mb-6 text-[#002B5C]">Key Features</h2>
+                  <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-xl border border-gray-200 mb-8">
+                    <ul className="space-y-3">
+                      {currentProduct.details!.features.map((feature, idx) => (
+                        <li key={idx} className="flex items-start gap-3">
+                          <div className="w-2 h-2 rounded-full bg-[#009999] mt-2 flex-shrink-0" />
+                          <span className="text-gray-700 leading-relaxed">{feature}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </>
+              )}
+              {/* <<< Only show features section when present */}
 
               <Link
                 href="/contact"

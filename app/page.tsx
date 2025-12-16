@@ -60,11 +60,11 @@ export default function Home() {
         </div>
 
         {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 hidden lg:block">
+        {/* <div className="absolute bottom-8 left-1/2 -translate-x-1/2 hidden lg:block">
           <div className="w-6 h-10 border-2 border-white/50 rounded-full flex items-start justify-center p-2">
             <div className="w-1.5 h-3 bg-white/50 rounded-full animate-bounce" />
           </div>
-        </div>
+        </div> */}
       </section>
 
       {/* Technologies & Innovations */}
@@ -211,7 +211,7 @@ export default function Home() {
       </section>
 
       {/* Global Presence */}
-      <section className="py-20 bg-[#002B5C] text-white">
+      <section className="py-20 bg-gradient-to-r from-[#002B5C] to-[#003a7a] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-balance">Global Presence</h2>
