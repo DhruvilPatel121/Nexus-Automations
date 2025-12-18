@@ -92,13 +92,13 @@ export default function ContactPage() {
             <address className="not-italic text-gray-700 leading-relaxed">
               <strong>Nexus Automations Inc.</strong>
               <br />
-              123 Industrial Boulevard
+              Samrat Industrial Area
               <br />
               Technology Park, Suite 400
               <br />
-              New York, NY 10001
+              Rajkot-360003, Gujarat
               <br />
-              United States
+              India
             </address>
           </div>
         </div>

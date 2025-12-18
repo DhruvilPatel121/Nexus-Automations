@@ -1,6 +1,14 @@
-import Link from "next/link"
-import Image from "next/image"
-import { ArrowRight, Zap, Globe, Shield, Award, TrendingUp, Users } from "lucide-react"
+import Link from "next/link";
+import Image from "next/image";
+import {
+  ArrowRight,
+  Zap,
+  Globe,
+  Shield,
+  Award,
+  TrendingUp,
+  Users,
+} from "lucide-react";
 
 export default function Home() {
   return (
@@ -39,8 +47,8 @@ export default function Home() {
               <span className="text-[#009999]">Empowering the Future.</span>
             </h1>
             <p className="text-xl lg:text-2xl text-white/90 mb-10 leading-relaxed max-w-3xl">
-              Innovation automation and control solutions that power the world's leading industrial operations with
-              cutting-edge technology.
+              Innovation automation and control solutions that power the world's
+              leading industrial operations with cutting-edge technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -75,8 +83,8 @@ export default function Home() {
               Technologies & Innovations
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto text-pretty">
-              Cutting-edge solutions that drive efficiency, sustainability, and digital transformation across
-              industries.
+              Cutting-edge solutions that drive efficiency, sustainability, and
+              digital transformation across industries.
             </p>
           </div>
 
@@ -129,7 +137,9 @@ export default function Home() {
                 <h3 className="text-xl font-bold mb-3 text-[#002B5C] group-hover:text-[#009999] transition-colors">
                   {feature.title}
                 </h3>
-                <p className="text-gray-600 leading-relaxed">{feature.description}</p>
+                <p className="text-gray-600 leading-relaxed">
+                  {feature.description}
+                </p>
               </div>
             ))}
           </div>
@@ -144,7 +154,8 @@ export default function Home() {
               Product Highlights
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto text-pretty">
-              Discover our comprehensive portfolio of industrial automation solutions.
+              Discover our comprehensive portfolio of industrial automation
+              solutions.
             </p>
           </div>
 
@@ -153,17 +164,20 @@ export default function Home() {
               {
                 name: "Industrial Automation",
                 image: "/images/products/automation.jpg",
-                description: "Complete automation solutions from PLCs to system integration",
+                description:
+                  "Complete automation solutions from PLCs to system integration",
               },
               {
                 name: "Drive Technology",
                 image: "/images/products/drives.jpg",
-                description: "Precise motor control with energy-efficient operation",
+                description:
+                  "Precise motor control with energy-efficient operation",
               },
               {
                 name: "Safety Technology",
                 image: "/images/products/safety.jpg",
-                description: "Comprehensive safety solutions for personnel protection",
+                description:
+                  "Comprehensive safety solutions for personnel protection",
               },
               {
                 name: "Process Instrumentation",
@@ -185,11 +199,15 @@ export default function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#002B5C]/80 to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-4">
-                    <h3 className="text-white font-bold text-lg">{category.name}</h3>
+                    <h3 className="text-white font-bold text-lg">
+                      {category.name}
+                    </h3>
                   </div>
                 </div>
                 <div className="p-5">
-                  <p className="text-gray-600 text-sm leading-relaxed">{category.description}</p>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    {category.description}
+                  </p>
                   <div className="flex items-center gap-2 text-[#009999] font-semibold mt-4 group-hover:gap-3 transition-all">
                     <span>Learn more</span>
                     <ArrowRight size={18} />
@@ -214,9 +232,12 @@ export default function Home() {
       <section className="py-20 bg-gradient-to-r from-[#002B5C] to-[#003a7a] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-balance">Global Presence</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-balance">
+              Global Presence
+            </h2>
             <p className="text-xl text-white/80 max-w-3xl mx-auto text-pretty">
-              Serving industries worldwide with local expertise and global support.
+              Serving industries worldwide with local expertise and global
+              support.
             </p>
           </div>
 
@@ -224,10 +245,14 @@ export default function Home() {
             <div className="p-8 bg-white/5 backdrop-blur rounded-xl border border-white/10">
               <div className="text-5xl font-bold text-[#009999] mb-2">50+</div>
               <div className="text-lg font-semibold mb-2">Countries</div>
-              <p className="text-white/70">Global operations and distribution</p>
+              <p className="text-white/70">
+                Global operations and distribution
+              </p>
             </div>
             <div className="p-8 bg-white/5 backdrop-blur rounded-xl border border-white/10">
-              <div className="text-5xl font-bold text-[#009999] mb-2">10,000+</div>
+              <div className="text-5xl font-bold text-[#009999] mb-2">
+                10,000+
+              </div>
               <div className="text-lg font-semibold mb-2">Installations</div>
               <p className="text-white/70">Trusted by industry leaders</p>
             </div>
@@ -248,7 +273,8 @@ export default function Home() {
               Latest Insights
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto text-pretty">
-              Stay updated with industry trends, innovations, and technical insights.
+              Stay updated with industry trends, innovations, and technical
+              insights.
             </p>
           </div>
 
@@ -271,27 +297,43 @@ export default function Home() {
               {
                 category: "Innovation",
                 title: "Industry 4.0 Implementation",
-                description: "Best practices for digital transformation and IIoT integration in modern factories.",
+                description:
+                  "Best practices for digital transformation and IIoT integration in modern factories.",
                 date: "Nov 2024",
               },
             ].map((insight, idx) => (
               <article
                 key={idx}
-                className="group bg-white rounded-xl overflow-hidden border border-gray-200 hover:border-[#009999] hover:shadow-xl transition-all"
+                className="group bg-white rounded-xl overflow-hidden border border-gray-200 hover:border-[#009999] hover:shadow-xl transition-all h-full"
               >
-                <div className="p-6">
-                  <div className="text-xs font-semibold text-[#009999] mb-3 uppercase tracking-wider">
-                    {insight.category}
+                <div className="p-6 flex flex-col h-full">
+                  {/* Top content */}
+                  <div>
+                    <div className="text-xs font-semibold text-[#009999] mb-3 uppercase tracking-wider">
+                      {insight.category}
+                    </div>
+
+                    <h3 className="text-xl font-bold mb-3 text-[#002B5C] group-hover:text-[#009999] transition-colors">
+                      {insight.title}
+                    </h3>
+
+                    <p className="text-gray-600 leading-relaxed">
+                      {insight.description}
+                    </p>
                   </div>
-                  <h3 className="text-xl font-bold mb-3 text-[#002B5C] group-hover:text-[#009999] transition-colors">
-                    {insight.title}
-                  </h3>
-                  <p className="text-gray-600 mb-4 leading-relaxed">{insight.description}</p>
-                  <div className="flex items-center justify-between">
-                    <span className="text-sm text-gray-500">{insight.date}</span>
-                    <button className="text-[#009999] font-semibold flex items-center gap-2 group-hover:gap-3 transition-all">
+
+                  {/* Bottom aligned row */}
+                  <div className="flex items-center justify-between mt-auto pt-6">
+                    <span className="text-sm text-gray-500">
+                      {insight.date}
+                    </span>
+
+                    <Link
+                      href="/products"
+                      className="text-[#009999] font-semibold flex items-center gap-2 group-hover:gap-3 transition-all"
+                    >
                       Read more <ArrowRight size={16} />
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </article>
@@ -307,8 +349,8 @@ export default function Home() {
             Ready to Transform Your Operations?
           </h2>
           <p className="text-xl mb-10 text-white/90 leading-relaxed">
-            Contact our experts to discuss your specific automation needs and discover how we can help you achieve
-            operational excellence.
+            Contact our experts to discuss your specific automation needs and
+            discover how we can help you achieve operational excellence.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -327,5 +369,5 @@ export default function Home() {
         </div>
       </section>
     </main>
-  )
+  );
 }

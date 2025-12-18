@@ -38,7 +38,7 @@ export default function ProductsPage() {
         setLoading(false)
       })
       .catch((error) => {
-        console.error("[v0] Error loading products:", error)
+        console.error("Error loading products:", error)
         setLoading(false)
       })
   }, [])

@@ -1,6 +1,6 @@
-# Industrial Solutions Website
+# Industrial Solutions Website For Nexus Automations By Dhruvil Bhuva
 
-A professional industrial automation website built with Next.js, designed to match Siemens' aesthetic and functionality.
+A professional industrial automation website built with Next.js, designed by Dhruvil Bhuva aesthetic and functionality.
 
 ## Features
 
@@ -16,17 +16,17 @@ A professional industrial automation website built with Next.js, designed to mat
 
 \`\`\`
 ├── app/
-│   ├── page.tsx              # Home/Landing page
-│   ├── products/page.tsx     # Dynamic product hierarchy
-│   ├── contact/page.tsx      # Contact form
-│   ├── layout.tsx            # Main layout
-│   └── globals.css           # Siemens color theme
+│ ├── page.tsx # Home/Landing page
+│ ├── products/page.tsx # Dynamic product hierarchy
+│ ├── contact/page.tsx # Contact form
+│ ├── layout.tsx # Main layout
+│ └── globals.css # Siemens color theme
 ├── components/
-│   ├── header.tsx            # Navigation header
-│   └── footer.tsx            # Footer component
+│ ├── header.tsx # Navigation header
+│ └── footer.tsx # Footer component
 ├── data/
-│   └── products.json         # Product database (8 main products)
-└── public/                   # Static assets
+│ └── products.json # Product database (8 main products)
+└── public/ # Static assets
 \`\`\`
 
 ## Getting Started
@@ -67,11 +67,11 @@ Edit `data/products.json`:
 
 \`\`\`json
 {
-  "id": "new-product",
-  "name": "New Product Category",
-  "description": "Description here",
-  "image": "/images/product.jpg",
-  "subProducts": [...]
+"id": "new-product",
+"name": "New Product Category",
+"description": "Description here",
+"image": "/images/product.jpg",
+"subProducts": [...]
 }
 \`\`\`
 
@@ -82,6 +82,7 @@ Then rebuild: `npm run build`
 See `DEPLOYMENT.md` for detailed instructions.
 
 **Quick Steps:**
+
 1. Run `npm run build`
 2. Upload `out` folder contents to Hostinger's `public_html`
 3. Done! Your site is live.
@@ -115,4 +116,4 @@ For issues or questions about deployment, refer to `DEPLOYMENT.md` or contact yo
 
 ## License
 
-Proprietary - Industrial Solutions
+Proprietary - Shivvilon Solutions
