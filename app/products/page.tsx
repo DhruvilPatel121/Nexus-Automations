@@ -60,10 +60,11 @@ export default function ProductsPage() {
     }
   }
 
-  const currentProduct =
-    breadcrumb.length > 0 && breadcrumb[breadcrumb.length - 1].type === "product"
-      ? breadcrumb[breadcrumb.length - 1]
-      : null
+  // Treat any leaf with details (even if type !== "product") as a product node
+  const isLeafProduct = (node?: ProductNode) =>
+    !!node && (node.type === "product" || (!!node.details && (!node.children || node.children.length === 0)))
+
+  const currentProduct = isLeafProduct(breadcrumb[breadcrumb.length - 1]) ? breadcrumb[breadcrumb.length - 1] : null
 
   // Filter products based on search
   const filteredLevel = searchQuery

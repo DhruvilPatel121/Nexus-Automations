@@ -1,9 +1,9 @@
-"use client"
+"use client";
 
-import type React from "react"
+import type React from "react";
 
-import { useState } from "react"
-import { Mail, Phone, MapPin, Clock } from "lucide-react"
+import { useState } from "react";
+import { Mail, Phone, MapPin, Clock } from "lucide-react";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -13,30 +13,36 @@ export default function ContactPage() {
     company: "",
     subject: "",
     message: "",
-  })
-  const [submitted, setSubmitted] = useState(false)
+  });
+  const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
+    e.preventDefault();
     // In production, send data to your backend
-    console.log("Form submitted:", formData)
-    setSubmitted(true)
-    setTimeout(() => setSubmitted(false), 3000)
-  }
+    console.log("Form submitted:", formData);
+    setSubmitted(true);
+    setTimeout(() => setSubmitted(false), 3000);
+  };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >
+  ) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
-    })
-  }
+    });
+  };
 
   return (
     <main className="min-h-screen bg-white">
       {/* <div className="bg-gradient-to-r from-[#009999] to-[#007373] text-white py-20"> */}
       <div className="bg-gradient-to-r from-[#002B5C] to-[#003a7a] text-white py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-4 text-balance">Contact Us</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold mb-4 text-balance">
+            Contact Us
+          </h1>
           <p className="text-xl text-white/90 leading-relaxed">
             Get in touch with our team of industrial automation experts
           </p>
@@ -51,14 +57,18 @@ export default function ContactPage() {
               <Phone size={32} className="text-[#009999]" />
             </div>
             <h3 className="text-2xl font-bold mb-4">Phone</h3>
-            <p className="text-gray-600 mb-4">Call us directly for immediate assistance</p>
+            <p className="text-gray-600 mb-4">
+              Call us directly for immediate assistance
+            </p>
             <a
               href="tel:+15551234567"
               className="text-[#009999] font-semibold text-lg hover:text-[#007373] transition-colors"
             >
-              +1 (555) 123-4567
+              +91 8460464710
             </a>
-            <p className="text-sm text-gray-500 mt-2">Monday - Friday: 8:00 AM - 6:00 PM EST</p>
+            <p className="text-sm text-gray-500 mt-2">
+              Monday - Friday: 8:00 AM - 6:00 PM EST
+            </p>
           </div>
 
           {/* Email */}
@@ -67,18 +77,20 @@ export default function ContactPage() {
               <Mail size={32} className="text-[#009999]" />
             </div>
             <h3 className="text-2xl font-bold mb-4">Email</h3>
-            <p className="text-gray-600 mb-4">Send us an email for detailed inquiries</p>
+            <p className="text-gray-600 mb-4">
+              Send us an email for detailed inquiries
+            </p>
             <a
-              href="mailto:info@nexusautomations.com"
+              href="mailto:info@pixtechnology.com"
               className="text-[#009999] font-semibold text-lg hover:text-[#007373] transition-colors block mb-2"
             >
-              info@nexusautomations.com
+              info@pixtechnology.com
             </a>
             <a
-              href="mailto:support@nexusautomations.com"
+              href="mailto:support@pixtechnology.com"
               className="text-[#009999] font-semibold text-lg hover:text-[#007373] transition-colors block"
             >
-              support@nexusautomations.com
+              support@pixtechnology.com
             </a>
           </div>
 
@@ -90,11 +102,11 @@ export default function ContactPage() {
             <h3 className="text-2xl font-bold mb-4">Visit Us</h3>
             <p className="text-gray-600 mb-4">Our corporate headquarters</p>
             <address className="not-italic text-gray-700 leading-relaxed">
-              <strong>Nexus Automations Inc.</strong>
+              <strong>Pix Technology Inc.</strong>
               <br />
               Samrat Industrial Area
               <br />
-              Technology Park, Suite 400
+              Technology Park, Gondal Road
               <br />
               Rajkot-360003, Gujarat
               <br />
@@ -111,20 +123,30 @@ export default function ContactPage() {
             <div className="grid sm:grid-cols-2 gap-6 text-left">
               <div>
                 <h4 className="font-semibold mb-2 text-lg">Sales Department</h4>
-                <p className="text-gray-600">Monday - Friday: 8:00 AM - 6:00 PM</p>
+                <p className="text-gray-600">
+                  Monday - Friday: 8:00 AM - 6:00 PM
+                </p>
                 <p className="text-gray-600">Saturday: 9:00 AM - 2:00 PM</p>
                 <p className="text-gray-600">Sunday: Closed</p>
               </div>
               <div>
-                <h4 className="font-semibold mb-2 text-lg">Technical Support</h4>
-                <p className="text-gray-600">Monday - Friday: 7:00 AM - 8:00 PM</p>
-                <p className="text-gray-600">24/7 Emergency Support Available</p>
-                <p className="text-[#009999] font-semibold mt-2">Call: +1 (555) 999-8888</p>
+                <h4 className="font-semibold mb-2 text-lg">
+                  Technical Support
+                </h4>
+                <p className="text-gray-600">
+                  Monday - Friday: 7:00 AM - 8:00 PM
+                </p>
+                <p className="text-gray-600">
+                  24/7 Emergency Support Available
+                </p>
+                <p className="text-[#009999] font-semibold mt-2">
+                  Call: +91 8460464710
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </main>
-  )
+  );
 }

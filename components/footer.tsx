@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Facebook, Twitter, Linkedin, Youtube } from "lucide-react";
+import { Facebook, Twitter, Youtube, Instagram } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -8,9 +8,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-lg font-bold mb-4 text-[#009999]">
-              Nexus Automations
-            </h3>
+            <Link
+              href="/"
+              className="text-lg font-bold mb-4 text-[#009999] hover:underline"
+            >
+              Pix Technology
+            </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
               Leading provider of industrial automation and control solutions
               worldwide.
@@ -35,7 +38,7 @@ export default function Footer() {
                 className="text-gray-400 hover:text-[#009999] transition-colors"
                 aria-label="LinkedIn"
               >
-                <Linkedin size={20} />
+                <Instagram size={20} />
               </a>
               <a
                 href="#"
@@ -90,9 +93,30 @@ export default function Footer() {
                   All Products
                 </Link>
               </li>
-              <li className="text-gray-400">Automation Controllers</li>
-              <li className="text-gray-400">Drive Systems</li>
-              <li className="text-gray-400">Safety Solutions</li>
+              <li>
+                <Link
+                  href="/products"
+                  className="text-gray-400 hover:text-[#009999] transition-colors"
+                >
+                  Automation Controllers
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/products"
+                  className="text-gray-400 hover:text-[#009999] transition-colors"
+                >
+                  Drive Systems
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/products"
+                  className="text-gray-400 hover:text-[#009999] transition-colors"
+                >
+                  Safety Solutions
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -100,10 +124,34 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Support</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>Email: info@nexusautomations.com</li>
-              <li>Phone: +1 (555) 123-4567</li>
+              <li>
+                Email:{" "}
+                <a
+                  href="mailto:info@pixtechnology.com"
+                  className="hover:text-[#009999] transition-colors"
+                >
+                  info@pixtechnology.com
+                </a>
+              </li>
+              <li>
+                Phone:{" "}
+                <a
+                  href="tel:+15551234567"
+                  className="hover:text-[#009999] transition-colors"
+                >
+                  +91 8460464710
+                </a>
+              </li>
               <li>24/7 Technical Support</li>
-              <li>Emergency: +1 (555) 999-8888</li>
+              <li>
+                Emergency:{" "}
+                <a
+                  href="tel:+15559998888"
+                  className="hover:text-[#009999] transition-colors"
+                >
+                  +91 8460464710
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -111,8 +159,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8 text-center text-sm text-gray-400">
           <p className="flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2">
             <span>
-              © {new Date().getFullYear()} Nexus Automations. All rights
-              reserved.
+              © {new Date().getFullYear()} Pix Technology. All rights reserved.
             </span>
             <span className="hidden sm:inline">|</span>
             <span>

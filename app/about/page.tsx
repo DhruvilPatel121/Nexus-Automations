@@ -1,5 +1,5 @@
-import Image from "next/image"
-import { Target, Users, Globe, Award } from "lucide-react"
+import Image from "next/image";
+import { Target, Users, Globe, Award } from "lucide-react";
 
 export default function AboutPage() {
   return (
@@ -7,9 +7,12 @@ export default function AboutPage() {
       {/* <div className="bg-gradient-to-r from-[#009999] to-[#007373] text-white py-20"> */}
       <div className="bg-gradient-to-r from-[#002B5C] to-[#003a7a] text-white py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-4 text-balance">About Nexus Automations</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold mb-4 text-balance">
+            About Pix Technology
+          </h1>
           <p className="text-xl text-white/90 leading-relaxed max-w-3xl">
-            Leading the future of industrial automation with innovation and excellence
+            Leading the future of industrial automation with innovation and
+            excellence
           </p>
         </div>
       </div>
@@ -20,25 +23,29 @@ export default function AboutPage() {
           <div>
             <h2 className="text-4xl font-bold mb-6">Who We Are</h2>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Nexus Automations is a leading technology company focused on industry, infrastructure, and automation. Our
-              purpose is to create technology to transform industrial operations, making them more efficient,
-              sustainable, and intelligent.
+              Pix Technology is a leading technology company focused on
+              industry, infrastructure, and automation. Our purpose is to create
+              technology to transform industrial operations, making them more
+              efficient, sustainable, and intelligent.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              By combining cutting-edge automation systems with real-world industrial expertise, we empower customers to
-              accelerate their digital transformation. We make factories more efficient, production lines more reliable,
-              and operations more sustainable.
+              By combining cutting-edge automation systems with real-world
+              industrial expertise, we empower customers to accelerate their
+              digital transformation. We make factories more efficient,
+              production lines more reliable, and operations more sustainable.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              As a leader in industrial automation, we leverage our deep domain knowledge to deliver innovative
-              solutions that drive productivity and efficiency. Our comprehensive portfolio makes advanced automation
-              accessible and impactful for customers across diverse industries.
+              As a leader in industrial automation, we leverage our deep domain
+              knowledge to deliver innovative solutions that drive productivity
+              and efficiency. Our comprehensive portfolio makes advanced
+              automation accessible and impactful for customers across diverse
+              industries.
             </p>
           </div>
           <div className="relative h-96 rounded-lg overflow-hidden shadow-2xl">
             <Image
               src="/modern-industrial-building-headquarters.jpg"
-              alt="Nexus Automations headquarters"
+              alt="Pix Technology headquarters"
               fill
               className="object-cover"
             />
@@ -53,7 +60,8 @@ export default function AboutPage() {
             </div>
             <h3 className="text-xl font-bold mb-3">Innovation</h3>
             <p className="text-gray-600 leading-relaxed">
-              Pioneering next-generation automation technologies for tomorrow's challenges
+              Pioneering next-generation automation technologies for tomorrow's
+              challenges
             </p>
           </div>
 
@@ -63,7 +71,8 @@ export default function AboutPage() {
             </div>
             <h3 className="text-xl font-bold mb-3">Customer Focus</h3>
             <p className="text-gray-600 leading-relaxed">
-              Building lasting partnerships through exceptional service and support
+              Building lasting partnerships through exceptional service and
+              support
             </p>
           </div>
 
@@ -120,42 +129,52 @@ export default function AboutPage() {
               {
                 year: "2000",
                 title: "Foundation",
-                description: "Nexus Automations founded with a vision to revolutionize industrial automation",
+                description:
+                  "Pix Technology founded with a vision to revolutionize industrial automation",
               },
               {
                 year: "2005",
                 title: "Global Expansion",
-                description: "Opened offices in Europe and Asia, establishing worldwide presence",
+                description:
+                  "Opened offices in Europe and Asia, establishing worldwide presence",
               },
               {
                 year: "2010",
                 title: "Innovation Award",
-                description: "Received prestigious industry award for breakthrough automation technology",
+                description:
+                  "Received prestigious industry award for breakthrough automation technology",
               },
               {
                 year: "2015",
                 title: "10,000th Installation",
-                description: "Reached milestone of 10,000 successful system installations globally",
+                description:
+                  "Reached milestone of 10,000 successful system installations globally",
               },
               {
                 year: "2020",
                 title: "Digital Transformation",
-                description: "Launched next-generation IoT-enabled automation platform",
+                description:
+                  "Launched next-generation IoT-enabled automation platform",
               },
               {
                 year: "2024",
                 title: "Sustainability Leader",
-                description: "Recognized as industry leader in sustainable automation solutions",
+                description:
+                  "Recognized as industry leader in sustainable automation solutions",
               },
             ].map((milestone, idx) => (
               <div key={idx} className="flex gap-8 items-start">
                 <div className="flex-shrink-0 w-24 text-right">
-                  <span className="text-3xl font-bold text-[#009999]">{milestone.year}</span>
+                  <span className="text-3xl font-bold text-[#009999]">
+                    {milestone.year}
+                  </span>
                 </div>
                 <div className="flex-shrink-0 w-4 h-4 bg-[#009999] rounded-full mt-2" />
                 <div className="flex-1 pb-8 border-b border-gray-200">
                   <h3 className="text-2xl font-bold mb-2">{milestone.title}</h3>
-                  <p className="text-gray-600 leading-relaxed">{milestone.description}</p>
+                  <p className="text-gray-600 leading-relaxed">
+                    {milestone.description}
+                  </p>
                 </div>
               </div>
             ))}
@@ -163,5 +182,5 @@ export default function AboutPage() {
         </div>
       </div>
     </main>
-  )
+  );
 }

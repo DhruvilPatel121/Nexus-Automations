@@ -2,183 +2,100 @@
   "products": [
     {
       "id": "p1",
-      "name": "Industrial Automation",
+      "name": "Motion Control ",
       "type": "category",
       "image": "/images/products/automation.jpg",
       "description": "Comprehensive automation solutions for modern industrial operations, from PLCs to complete system integration.",
       "children": [
         {
           "id": "p1-1",
-          "name": "PLC Systems",
+          "name": "PAC",
           "type": "subcategory",
-          "image": "/images/products/plc-systems.jpg",
+          "image": "/images/products/pac.png",
           "description": "Modular programmable logic controllers for all automation requirements.",
-          "children": [
-            {
-              "id": "p1-1-1",
-              "name": "Advanced PLC Controller X-5000",
-              "type": "product",
-              "image": "/images/products/plc-x5000.jpg",
-              "description": "High-performance PLC with advanced processing capabilities and modular design for complex automation tasks.",
-              "details": {
-                "features": [
-                  "Quad-core 1.2 GHz processor for fast execution",
-                  "Modular I/O expansion up to 1024 points",
-                  "Integrated web server for remote monitoring",
-                  "Support for PROFINET, EtherCAT, Modbus TCP",
-                  "Hot-swappable modules for zero downtime",
-                  "Built-in cybersecurity features"
-                ],
-                "specs": {
-                  "Processor": "Quad-core ARM 1.2 GHz",
-                  "Memory": "4GB RAM, 16GB Flash",
-                  "Voltage": "24V DC",
-                  "Operating Temperature": "-20°C to 70°C",
-                  "Communication Protocols": "PROFINET, EtherCAT, Modbus TCP/IP",
-                  "I/O Capacity": "Up to 1024 I/O points",
-                  "Protection Rating": "IP20",
-                  "Certifications": "CE, UL, cUL",
-                  "Warranty": "3 Years"
-                },
-                "downloads": [
-                  {
-                    "label": "Product Brochure",
-                    "file": "/downloads/plc-x5000-brochure.pdf"
-                  },
-                  {
-                    "label": "Technical Manual",
-                    "file": "/downloads/plc-x5000-manual.pdf"
-                  },
-                  {
-                    "label": "Quick Start Guide",
-                    "file": "/downloads/plc-x5000-quickstart.pdf"
-                  }
-                ]
-              }
+          "details": {
+            "features": [
+              "Energy savings up to 30%",
+              "Advanced vector control",
+              "Built-in PLC with ladder logic",
+              "7-inch color touchscreen",
+              "Predictive maintenance with AI",
+              "Multiple motor control modes",
+              "Safe torque off (STO) integrated"
+            ],
+            "specs": {
+              "Power Range": "0.75 kW to 630 kW",
+              "Input Voltage": "380-480V AC, 3-phase",
+              "Output Frequency": "0-400 Hz",
+              "Efficiency": "Up to 98%",
+              "Overload Capacity": "150% for 60s",
+              "Protection": "IP20 / IP54 (optional)",
+              "Communication": "Modbus RTU, PROFINET, EtherNet/IP",
+              "Warranty": "2 Years"
             },
-            {
-              "id": "p1-1-2",
-              "name": "Compact PLC C-200",
-              "type": "product",
-              "image": "/images/products/plc-c200.jpg",
-              "description": "Space-saving PLC solution for small to medium automation applications with exceptional value.",
-              "details": {
-                "features": [
-                  "Compact design saves panel space",
-                  "Built-in I/O: 14 inputs, 10 outputs",
-                  "Expandable up to 128 I/O points",
-                  "Ethernet connectivity standard",
-                  "Free programming software",
-                  "Perfect for machine control"
-                ],
-                "specs": {
-                  "Processor": "Single-core 200 MHz",
-                  "Memory": "512MB RAM, 2GB Flash",
-                  "Voltage": "24V DC",
-                  "Operating Temperature": "-10°C to 60°C",
-                  "Built-in I/O": "14 DI, 10 DO",
-                  "Communication": "Ethernet, RS485",
-                  "Dimensions": "120 x 90 x 75 mm",
-                  "Warranty": "2 Years"
-                },
-                "downloads": [
-                  {
-                    "label": "User Manual",
-                    "file": "/downloads/plc-c200-manual.pdf"
-                  }
-                ]
+            "downloads": [
+              {
+                "label": "Product Catalog",
+                "file": "/downloads/pac.pdf"
               }
-            }
-          ]
+            ]
+          }
         },
         {
           "id": "p1-2",
-          "name": "HMI & Visualization",
+          "name": "PLC",
           "type": "subcategory",
           "image": "/images/products/hmi-panels.jpg",
-          "description": "Human-machine interface solutions with stunning visualizations and intuitive operation.",
-          "children": [
-            {
-              "id": "p1-2-1",
-              "name": "Industrial Touch Panel Pro 15",
-              "type": "product",
-              "image": "/images/products/hmi-pro15.jpg",
-              "description": "15.6-inch multi-touch panel with Full HD display and powerful visualization capabilities.",
-              "details": {
-                "features": [
-                  "15.6\" Full HD multi-touch display",
-                  "Projected capacitive touch technology",
-                  "Powerful quad-core processor",
-                  "Web-based visualization",
-                  "Alarm management with email notifications",
-                  "Recipe management",
-                  "VNC remote access"
-                ],
-                "specs": {
-                  "Display Size": "15.6 inch",
-                  "Resolution": "1920 x 1080 Full HD",
-                  "Touch Technology": "Projected Capacitive (PCAP)",
-                  "Brightness": "400 cd/m²",
-                  "Viewing Angle": "170° horizontal / vertical",
-                  "Processor": "Quad-core ARM Cortex-A9",
-                  "Operating Temperature": "0°C to 50°C",
-                  "Protection": "IP65 front panel",
-                  "Warranty": "3 Years"
-                },
-                "downloads": [
-                  {
-                    "label": "Configuration Manual",
-                    "file": "/downloads/hmi-pro15-config.pdf"
-                  },
-                  {
-                    "label": "Installation Guide",
-                    "file": "/downloads/hmi-pro15-install.pdf"
-                  }
-                ]
-              }
-            }
-          ]
+          "description": "Human-machine interface solutions with stunning visualizations and intuitive operation."
         },
         {
           "id": "p1-3",
-          "name": "Industrial Networking",
+          "name": "HMI",
           "type": "subcategory",
           "image": "/images/products/networking.jpg",
-          "description": "Robust networking solutions for reliable industrial communications.",
-          "children": [
-            {
-              "id": "p1-3-1",
-              "name": "Managed Industrial Switch 24-Port",
-              "type": "product",
-              "image": "/images/products/switch-24.jpg",
-              "description": "24-port Gigabit managed switch with advanced features for industrial automation networks.",
-              "details": {
-                "features": [
-                  "24x Gigabit Ethernet ports + 4x SFP",
-                  "Ring redundancy recovery < 20ms",
-                  "VLAN, QoS, IGMP snooping",
-                  "Web-based management",
-                  "DIN rail mounting",
-                  "Extended temperature range -40°C to 75°C"
-                ],
-                "specs": {
-                  "Ports": "24x 10/100/1000Base-T(X), 4x SFP",
-                  "Switching Capacity": "48 Gbps",
-                  "Power Supply": "24-48V DC redundant input",
-                  "Operating Temperature": "-40°C to 75°C",
-                  "Protection": "IP30",
-                  "MTBF": "> 300,000 hours",
-                  "Warranty": "5 Years"
-                },
-                "downloads": [
-                  {
-                    "label": "User Manual",
-                    "file": "/downloads/switch-24-manual.pdf"
-                  }
-                ]
-              }
-            }
-          ]
+          "description": "Robust networking solutions for reliable industrial communications."
+        },
+        {
+          "id": "p1-4",
+          "name": "Servo Drive",
+          "type": "subcategory",
+          "image": "/images/products/networking.jpg",
+          "description": "Robust networking solutions for reliable industrial communications."
+        },
+        {
+          "id": "p1-5",
+          "name": "Servo Motor",
+          "type": "subcategory",
+          "image": "/images/products/networking.jpg",
+          "description": "Robust networking solutions for reliable industrial communications."
+        },
+        {
+          "id": "p1-6",
+          "name": "Inverter",
+          "type": "subcategory",
+          "image": "/images/products/networking.jpg",
+          "description": "Robust networking solutions for reliable industrial communications."
+        },
+        {
+          "id": "p1-7",
+          "name": "Stepper Motor",
+          "type": "subcategory",
+          "image": "/images/products/networking.jpg",
+          "description": "Robust networking solutions for reliable industrial communications."
+        },
+        {
+          "id": "p1-8",
+          "name": "Stepper Drive",
+          "type": "subcategory",
+          "image": "/images/products/networking.jpg",
+          "description": "Robust networking solutions for reliable industrial communications."
+        },
+        {
+          "id": "p1-9",
+          "name": "Spindle Motor",
+          "type": "subcategory",
+          "image": "/images/products/networking.jpg",
+          "description": "Robust networking solutions for reliable industrial communications."
         }
       ]
     },

@@ -1,4 +1,4 @@
-# Industrial Solutions Website For Nexus Automations By Dhruvil Bhuva
+# Industrial Solutions Website For Pix Technology By Dhruvil Bhuva
 
 A professional industrial automation website built with Next.js, designed by Dhruvil Bhuva aesthetic and functionality.
 
