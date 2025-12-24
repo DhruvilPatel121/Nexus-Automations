@@ -10,7 +10,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Nexus - Automation & Control",
+  title: "Pix Technology - Automation & Control",
   description:
     "Leading provider of industrial automation, control systems, drives, motors, and power distribution solutions",
   generator: "Handcrafted by the Dhruvil Bhuva",
