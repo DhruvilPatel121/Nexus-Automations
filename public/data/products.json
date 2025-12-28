@@ -2,151 +2,507 @@
   "products": [
     {
       "id": "p1",
-      "name": "Motion Control ",
+      "name": "Motion",
       "type": "category",
-      "image": "/images/products/automation.jpg",
-      "description": "Comprehensive automation solutions for modern industrial operations, from PLCs to complete system integration.",
+      "image": "/images/products/motion.jpg",
+      "description": "Comprehensive motion control solutions for modern industrial operations.",
       "children": [
         {
           "id": "p1-1",
-          "name": "PAC",
+          "name": "Servo System",
           "type": "subcategory",
-          "image": "/images/products/pac.png",
-          "description": "Modular programmable logic controllers for all automation requirements.",
-          "details": {
-            "features": [
-              "Energy savings up to 30%",
-              "Advanced vector control",
-              "Built-in PLC with ladder logic",
-              "7-inch color touchscreen",
-              "Predictive maintenance with AI",
-              "Multiple motor control modes",
-              "Safe torque off (STO) integrated"
-            ],
-            "specs": {
-              "Power Range": "0.75 kW to 630 kW",
-              "Input Voltage": "380-480V AC, 3-phase",
-              "Output Frequency": "0-400 Hz",
-              "Efficiency": "Up to 98%",
-              "Overload Capacity": "150% for 60s",
-              "Protection": "IP20 / IP54 (optional)",
-              "Communication": "Modbus RTU, PROFINET, EtherNet/IP",
-              "Warranty": "2 Years"
+          "image": "/images/products/servo-system.jpg",
+          "description": "High-precision servo systems for demanding motion control applications.",
+          "children": [
+            {
+              "id": "p1-1-1",
+              "name": "HD1 Servo System",
+              "type": "subcategory",
+              "image": "/images/products/hd1-servo.jpg",
+              "description": "HD1 series servo system with advanced control capabilities.",
+              "children": [
+                {
+                  "id": "p1-1-1-1",
+                  "name": "PX-HD1",
+                  "type": "product",
+                  "image": "/images/products/px-hd1.jpg",
+                  "description": "PX-HD1 servo drive with high performance and reliability.",
+                  "details": {
+                    "features": [
+                      "High torque density design",
+                      "Advanced vector control",
+                      "Quick auto-tuning",
+                      "Integrated safety functions",
+                      "Low cogging torque"
+                    ],
+                    "specs": {
+                      "Power Range": "50W to 5kW",
+                      "Voltage": "220V AC",
+                      "Speed Range": "0-3000 RPM",
+                      "Protection": "IP65",
+                      "Warranty": "2 Years"
+                    },
+                    "downloads": [
+                      {
+                        "label": "Product Catalog",
+                        "file": "/downloads/px-hd1-catalog.pdf"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "p1-1-1-2",
+                  "name": "PX-HD3",
+                  "type": "product",
+                  "image": "/images/products/px-hd3.jpg",
+                  "description": "PX-HD3 servo drive with enhanced features.",
+                  "details": {
+                    "features": [
+                      "Enhanced torque output",
+                      "Advanced control algorithms",
+                      "Built-in encoder",
+                      "Vibration suppression"
+                    ],
+                    "specs": {
+                      "Power Range": "100W to 7.5kW",
+                      "Voltage": "220V AC",
+                      "Speed Range": "0-4000 RPM",
+                      "Protection": "IP65",
+                      "Warranty": "2 Years"
+                    },
+                    "downloads": [
+                      {
+                        "label": "Product Catalog",
+                        "file": "/downloads/px-hd3-catalog.pdf"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "p1-1-1-3",
+                  "name": "PX-HD5",
+                  "type": "product",
+                  "image": "/images/products/px-hd5.jpg",
+                  "description": "PX-HD5 servo drive for heavy-duty applications.",
+                  "details": {
+                    "features": [
+                      "Heavy-duty performance",
+                      "High precision control",
+                      "Advanced diagnostics",
+                      "Network connectivity"
+                    ],
+                    "specs": {
+                      "Power Range": "200W to 15kW",
+                      "Voltage": "220V AC",
+                      "Speed Range": "0-6000 RPM",
+                      "Protection": "IP65",
+                      "Warranty": "2 Years"
+                    },
+                    "downloads": [
+                      {
+                        "label": "Product Catalog",
+                        "file": "/downloads/px-hd5-catalog.pdf"
+                      }
+                    ]
+                  }
+                }
+              ]
             },
-            "downloads": [
-              {
-                "label": "Product Catalog",
-                "file": "/downloads/pac.pdf"
-              }
-            ]
-          }
+            {
+              "id": "p1-1-2",
+              "name": "HD5 Servo System",
+              "type": "subcategory",
+              "image": "/images/products/hd5-servo.jpg",
+              "description": "HD5 series servo system with superior performance.",
+              "children": [
+                {
+                  "id": "p1-1-2-1",
+                  "name": "CS 1",
+                  "type": "product",
+                  "image": "/images/products/cs1.jpg",
+                  "description": "CS 1 servo system for precision applications.",
+                  "details": {
+                    "features": [
+                      "Ultra-high precision",
+                      "Fast response time",
+                      "Low noise operation",
+                      "Energy efficient"
+                    ],
+                    "specs": {
+                      "Power Range": "100W to 10kW",
+                      "Voltage": "220V AC",
+                      "Speed Range": "0-5000 RPM",
+                      "Protection": "IP65",
+                      "Warranty": "2 Years"
+                    },
+                    "downloads": [
+                      {
+                        "label": "Product Catalog",
+                        "file": "/downloads/cs1-catalog.pdf"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "p1-1-2-2",
+                  "name": "CS 2",
+                  "type": "product",
+                  "image": "/images/products/cs2.jpg",
+                  "description": "CS 2 servo system with advanced features.",
+                  "details": {
+                    "features": [
+                      "Advanced motion control",
+                      "High dynamic response",
+                      "Integrated safety",
+                      "Multi-axis coordination"
+                    ],
+                    "specs": {
+                      "Power Range": "200W to 15kW",
+                      "Voltage": "220V AC",
+                      "Speed Range": "0-6000 RPM",
+                      "Protection": "IP65",
+                      "Warranty": "2 Years"
+                    },
+                    "downloads": [
+                      {
+                        "label": "Product Catalog",
+                        "file": "/downloads/cs2-catalog.pdf"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "p1-1-2-3",
+                  "name": "CS 3",
+                  "type": "product",
+                  "image": "/images/products/cs3.jpg",
+                  "description": "CS 3 servo system for demanding applications.",
+                  "details": {
+                    "features": [
+                      "Maximum performance",
+                      "Superior accuracy",
+                      "Advanced diagnostics",
+                      "Network integration"
+                    ],
+                    "specs": {
+                      "Power Range": "500W to 20kW",
+                      "Voltage": "220V AC",
+                      "Speed Range": "0-8000 RPM",
+                      "Protection": "IP65",
+                      "Warranty": "2 Years"
+                    },
+                    "downloads": [
+                      {
+                        "label": "Product Catalog",
+                        "file": "/downloads/cs3-catalog.pdf"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "p1-2",
-          "name": "PLC",
+          "name": "Stepper System",
           "type": "subcategory",
-          "image": "/images/products/hmi-panels.jpg",
-          "description": "Human-machine interface solutions with stunning visualizations and intuitive operation."
+          "image": "/images/products/stepper-system.jpg",
+          "description": "Reliable stepper motor systems for precise positioning.",
+          "children": [
+            {
+              "id": "p1-2-1",
+              "name": "ST Series",
+              "type": "subcategory",
+              "image": "/images/products/st-series.jpg",
+              "description": "ST series stepper motors and drives.",
+              "children": [
+                {
+                  "id": "p1-2-1-1",
+                  "name": "EA",
+                  "type": "product",
+                  "image": "/images/products/ea.jpg",
+                  "description": "EA series stepper motor with compact design.",
+                  "details": {
+                    "features": [
+                      "Compact design",
+                      "High holding torque",
+                      "Low vibration",
+                      "Easy integration"
+                    ],
+                    "specs": {
+                      "Step Angle": "1.8°",
+                      "Holding Torque": "0.5-5 Nm",
+                      "Voltage": "24V DC",
+                      "Protection": "IP54",
+                      "Warranty": "2 Years"
+                    },
+                    "downloads": [
+                      {
+                        "label": "Product Catalog",
+                        "file": "/downloads/ea-catalog.pdf"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "p1-2-1-2",
+                  "name": "EB",
+                  "type": "product",
+                  "image": "/images/products/eb.jpg",
+                  "description": "EB series stepper motor with enhanced performance.",
+                  "details": {
+                    "features": [
+                      "Enhanced torque",
+                      "Smooth operation",
+                      "Microstepping capability",
+                      "Reliable performance"
+                    ],
+                    "specs": {
+                      "Step Angle": "1.8°",
+                      "Holding Torque": "1-8 Nm",
+                      "Voltage": "24V DC",
+                      "Protection": "IP54",
+                      "Warranty": "2 Years"
+                    },
+                    "downloads": [
+                      {
+                        "label": "Product Catalog",
+                        "file": "/downloads/eb-catalog.pdf"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "p1-2-1-3",
+                  "name": "EV",
+                  "type": "product",
+                  "image": "/images/products/ev.jpg",
+                  "description": "EV series stepper motor for high-performance applications.",
+                  "details": {
+                    "features": [
+                      "High performance",
+                      "Low heat generation",
+                      "Advanced control",
+                      "Long service life"
+                    ],
+                    "specs": {
+                      "Step Angle": "1.8°",
+                      "Holding Torque": "2-12 Nm",
+                      "Voltage": "24V DC",
+                      "Protection": "IP54",
+                      "Warranty": "2 Years"
+                    },
+                    "downloads": [
+                      {
+                        "label": "Product Catalog",
+                        "file": "/downloads/ev-catalog.pdf"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "p1-3",
-          "name": "HMI",
+          "name": "Motion Controller",
           "type": "subcategory",
-          "image": "/images/products/networking.jpg",
-          "description": "Robust networking solutions for reliable industrial communications."
-        },
-        {
-          "id": "p1-4",
-          "name": "Servo Drive",
-          "type": "subcategory",
-          "image": "/images/products/networking.jpg",
-          "description": "Robust networking solutions for reliable industrial communications."
-        },
-        {
-          "id": "p1-5",
-          "name": "Servo Motor",
-          "type": "subcategory",
-          "image": "/images/products/networking.jpg",
-          "description": "Robust networking solutions for reliable industrial communications."
-        },
-        {
-          "id": "p1-6",
-          "name": "Inverter",
-          "type": "subcategory",
-          "image": "/images/products/networking.jpg",
-          "description": "Robust networking solutions for reliable industrial communications."
-        },
-        {
-          "id": "p1-7",
-          "name": "Stepper Motor",
-          "type": "subcategory",
-          "image": "/images/products/networking.jpg",
-          "description": "Robust networking solutions for reliable industrial communications."
-        },
-        {
-          "id": "p1-8",
-          "name": "Stepper Drive",
-          "type": "subcategory",
-          "image": "/images/products/networking.jpg",
-          "description": "Robust networking solutions for reliable industrial communications."
-        },
-        {
-          "id": "p1-9",
-          "name": "Spindle Motor",
-          "type": "subcategory",
-          "image": "/images/products/networking.jpg",
-          "description": "Robust networking solutions for reliable industrial communications."
-        }
-      ]
-    },
-    {
-      "id": "p2",
-      "name": "Drive Technology",
-      "type": "category",
-      "image": "/images/products/drives.jpg",
-      "description": "Advanced drive solutions for precise motion control and energy-efficient operation.",
-      "children": [
-        {
-          "id": "p2-1",
-          "name": "Variable Frequency Drives",
-          "type": "subcategory",
-          "image": "/images/products/vfd.jpg",
-          "description": "Energy-efficient VFDs for AC motor control with advanced features.",
+          "image": "/images/products/motion-controller.jpg",
+          "description": "Advanced motion controllers for multi-axis coordination.",
           "children": [
             {
-              "id": "p2-1-1",
-              "name": "VFD Pro Series 3000",
+              "id": "p1-3-1",
+              "name": "PX100",
               "type": "product",
-              "image": "/images/products/vfd-3000.jpg",
-              "description": "High-performance VFD with energy savings up to 30% and built-in PLC functionality.",
+              "image": "/images/products/px100.jpg",
+              "description": "PX100 motion controller for complex motion applications.",
               "details": {
                 "features": [
-                  "Energy savings up to 30%",
-                  "Advanced vector control",
-                  "Built-in PLC with ladder logic",
-                  "7-inch color touchscreen",
-                  "Predictive maintenance with AI",
-                  "Multiple motor control modes",
-                  "Safe torque off (STO) integrated"
+                  "Multi-axis control",
+                  "Advanced trajectory planning",
+                  "Real-time processing",
+                  "Ethernet connectivity"
                 ],
                 "specs": {
-                  "Power Range": "0.75 kW to 630 kW",
-                  "Input Voltage": "380-480V AC, 3-phase",
-                  "Output Frequency": "0-400 Hz",
-                  "Efficiency": "Up to 98%",
-                  "Overload Capacity": "150% for 60s",
-                  "Protection": "IP20 / IP54 (optional)",
-                  "Communication": "Modbus RTU, PROFINET, EtherNet/IP",
+                  "Axes": "Up to 8 axes",
+                  "Input Voltage": "24V DC",
+                  "Communication": "Ethernet, RS485",
+                  "Protection": "IP20",
                   "Warranty": "2 Years"
                 },
                 "downloads": [
                   {
                     "label": "Product Catalog",
-                    "file": "/downloads/vfd-3000-catalog.pdf"
-                  },
+                    "file": "/downloads/px100-catalog.pdf"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "p1-3-2",
+              "name": "PX 30",
+              "type": "product",
+              "image": "/images/products/px30.jpg",
+              "description": "PX 30 motion controller for compact applications.",
+              "details": {
+                "features": [
+                  "Compact design",
+                  "Easy programming",
+                  "Fast execution",
+                  "Multiple I/O options"
+                ],
+                "specs": {
+                  "Axes": "Up to 4 axes",
+                  "Input Voltage": "24V DC",
+                  "Communication": "RS485, CAN",
+                  "Protection": "IP20",
+                  "Warranty": "2 Years"
+                },
+                "downloads": [
                   {
-                    "label": "Quick Start Guide",
-                    "file": "/downloads/vfd-3000-quickstart.pdf"
+                    "label": "Product Catalog",
+                    "file": "/downloads/px30-catalog.pdf"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "p1-4",
+          "name": "Planetary Gearbox",
+          "type": "subcategory",
+          "image": "/images/products/planetary-gearbox.jpg",
+          "description": "High-precision planetary gearboxes for motion systems.",
+          "children": [
+            {
+              "id": "p1-4-1",
+              "name": "PLF",
+              "type": "product",
+              "image": "/images/products/plf.jpg",
+              "description": "PLF planetary gearbox with high efficiency.",
+              "details": {
+                "features": [
+                  "High efficiency",
+                  "Low backlash",
+                  "Compact design",
+                  "Long service life"
+                ],
+                "specs": {
+                  "Ratio": "3:1 to 100:1",
+                  "Efficiency": "Up to 97%",
+                  "Backlash": "< 3 arcmin",
+                  "Protection": "IP65",
+                  "Warranty": "2 Years"
+                },
+                "downloads": [
+                  {
+                    "label": "Product Catalog",
+                    "file": "/downloads/plf-catalog.pdf"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "p1-4-2",
+              "name": "PLG",
+              "type": "product",
+              "image": "/images/products/plg.jpg",
+              "description": "PLG planetary gearbox for heavy-duty applications.",
+              "details": {
+                "features": [
+                  "Heavy-duty construction",
+                  "High torque capacity",
+                  "Precision machining",
+                  "Robust design"
+                ],
+                "specs": {
+                  "Ratio": "3:1 to 100:1",
+                  "Efficiency": "Up to 96%",
+                  "Backlash": "< 5 arcmin",
+                  "Protection": "IP65",
+                  "Warranty": "2 Years"
+                },
+                "downloads": [
+                  {
+                    "label": "Product Catalog",
+                    "file": "/downloads/plg-catalog.pdf"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Control Product",
+      "type": "category",
+      "image": "/images/products/control-product.jpg",
+      "description": "Comprehensive control solutions for industrial automation.",
+      "children": [
+        {
+          "id": "p2-1",
+          "name": "PLC",
+          "type": "subcategory",
+          "image": "/images/products/plc.jpg",
+          "description": "Programmable logic controllers for automation control.",
+          "children": [
+            {
+              "id": "p2-1-1",
+              "name": "MC1",
+              "type": "product",
+              "image": "/images/products/mc1.jpg",
+              "description": "MC1 PLC for basic automation applications.",
+              "details": {
+                "features": [
+                  "Compact design",
+                  "Easy programming",
+                  "Multiple I/O options",
+                  "Reliable operation"
+                ],
+                "specs": {
+                  "I/O Points": "Up to 128",
+                  "Memory": "64KB",
+                  "Communication": "RS485, Ethernet",
+                  "Protection": "IP20",
+                  "Warranty": "2 Years"
+                },
+                "downloads": [
+                  {
+                    "label": "Product Catalog",
+                    "file": "/downloads/mc1-catalog.pdf"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "p2-1-2",
+              "name": "MC3",
+              "type": "product",
+              "image": "/images/products/mc3.jpg",
+              "description": "MC3 PLC for advanced automation applications.",
+              "details": {
+                "features": [
+                  "Advanced processing",
+                  "Large memory capacity",
+                  "Multiple communication ports",
+                  "Expandable I/O"
+                ],
+                "specs": {
+                  "I/O Points": "Up to 512",
+                  "Memory": "256KB",
+                  "Communication": "RS485, Ethernet, PROFINET",
+                  "Protection": "IP20",
+                  "Warranty": "2 Years"
+                },
+                "downloads": [
+                  {
+                    "label": "Product Catalog",
+                    "file": "/downloads/mc3-catalog.pdf"
                   }
                 ]
               }
@@ -155,41 +511,63 @@
         },
         {
           "id": "p2-2",
-          "name": "Servo Drives & Motors",
+          "name": "HMI",
           "type": "subcategory",
-          "image": "/images/products/servo.jpg",
-          "description": "High-precision servo systems for demanding motion control applications.",
+          "image": "/images/products/hmi.jpg",
+          "description": "Human-machine interface panels for operator control.",
           "children": [
             {
               "id": "p2-2-1",
-              "name": "Servo System Ultra 5000",
+              "name": "TP3000",
               "type": "product",
-              "image": "/images/products/servo-5000.jpg",
-              "description": "Ultra-high precision servo system with 23-bit encoder and advanced control algorithms.",
+              "image": "/images/products/tp3000.jpg",
+              "description": "TP3000 HMI with 7-inch touchscreen.",
               "details": {
                 "features": [
-                  "23-bit absolute multi-turn encoder",
-                  "High torque density design",
-                  "Low cogging torque < 1%",
-                  "Integrated safety functions SIL 2",
-                  "One-cable technology",
-                  "Quick auto-tuning",
-                  "Vibration suppression"
+                  "7-inch color touchscreen",
+                  "High resolution display",
+                  "Multiple communication protocols",
+                  "Easy configuration"
                 ],
                 "specs": {
-                  "Power Range": "50W to 15kW",
-                  "Voltage": "220V AC single/three-phase",
-                  "Speed Range": "0-6000 RPM",
-                  "Position Accuracy": "±0.01°",
-                  "Encoder Resolution": "23-bit (8,388,608 ppr)",
-                  "Protection": "IP65",
-                  "Cooling": "Natural / Forced air",
+                  "Screen Size": "7 inches",
+                  "Resolution": "800x480",
+                  "Communication": "RS485, Ethernet",
+                  "Protection": "IP65 front panel",
                   "Warranty": "2 Years"
                 },
                 "downloads": [
                   {
-                    "label": "Technical Datasheet",
-                    "file": "/downloads/servo-5000-datasheet.pdf"
+                    "label": "Product Catalog",
+                    "file": "/downloads/tp3000-catalog.pdf"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "p2-2-2",
+              "name": "TP5000",
+              "type": "product",
+              "image": "/images/products/tp5000.jpg",
+              "description": "TP5000 HMI with 10-inch touchscreen.",
+              "details": {
+                "features": [
+                  "10-inch color touchscreen",
+                  "Full HD display",
+                  "Advanced graphics",
+                  "Multi-language support"
+                ],
+                "specs": {
+                  "Screen Size": "10 inches",
+                  "Resolution": "1024x768",
+                  "Communication": "RS485, Ethernet, USB",
+                  "Protection": "IP65 front panel",
+                  "Warranty": "2 Years"
+                },
+                "downloads": [
+                  {
+                    "label": "Product Catalog",
+                    "file": "/downloads/tp5000-catalog.pdf"
                   }
                 ]
               }
@@ -200,151 +578,136 @@
     },
     {
       "id": "p3",
-      "name": "Power Distribution",
+      "name": "Robots",
       "type": "category",
-      "image": "/images/products/power.png",
-      "description": "Reliable power distribution and protection solutions for industrial installations.",
+      "image": "/images/products/robots.jpg",
+      "description": "Industrial robots for automation and material handling.",
       "children": [
         {
           "id": "p3-1",
-          "name": "Industrial UPS Systems",
-          "type": "subcategory",
-          "image": "/images/products/ups.jpg",
-          "description": "Uninterruptible power supplies for critical industrial systems.",
-          "children": [
-            {
-              "id": "p3-1-1",
-              "name": "PowerGuard Industrial 10kVA",
-              "type": "product",
-              "image": "/images/products/ups-10k.jpg",
-              "description": "Industrial-grade online UPS with double conversion and hot-swappable batteries.",
-              "details": {
-                "features": [
-                  "Online double-conversion topology",
-                  "Hot-swappable battery modules",
-                  "Network management card included",
-                  "Generator compatibility",
-                  "Automatic bypass switch",
-                  "LCD display with diagnostics",
-                  "Remote monitoring via web interface"
-                ],
-                "specs": {
-                  "Capacity": "10kVA / 9kW",
-                  "Input Voltage": "208/220/230/240V AC",
-                  "Output Voltage": "208/220/230/240V AC",
-                  "Backup Time": "10-30 minutes (configurable)",
-                  "Efficiency": "Up to 96% (online mode)",
-                  "Battery Type": "Sealed lead-acid, hot-swappable",
-                  "Operating Temperature": "0°C to 40°C",
-                  "Warranty": "3 Years (1 Year battery)"
-                },
-                "downloads": [
-                  {
-                    "label": "Installation Manual",
-                    "file": "/downloads/ups-10k-installation.pdf"
-                  },
-                  {
-                    "label": "Battery Maintenance Guide",
-                    "file": "/downloads/ups-battery-guide.pdf"
-                  }
-                ]
+          "name": "CS",
+          "type": "product",
+          "image": "/images/products/cs-robot.jpg",
+          "description": "CS series industrial robot for versatile applications.",
+          "details": {
+            "features": [
+              "6-axis configuration",
+              "High precision",
+              "Easy programming",
+              "Flexible deployment"
+            ],
+            "specs": {
+              "Axes": "6",
+              "Payload": "10-50 kg",
+              "Reach": "1000-2000 mm",
+              "Repeatability": "±0.05 mm",
+              "Protection": "IP54",
+              "Warranty": "2 Years"
+            },
+            "downloads": [
+              {
+                "label": "Product Catalog",
+                "file": "/downloads/cs-robot-catalog.pdf"
               }
-            }
-          ]
+            ]
+          }
         }
       ]
     },
     {
       "id": "p4",
-      "name": "Safety Technology",
+      "name": "Drive Technology",
       "type": "category",
-      "image": "/images/products/safety.jpg",
-      "description": "Comprehensive safety solutions protecting personnel and equipment in industrial environments.",
+      "image": "/images/products/drive-technology.jpg",
+      "description": "Advanced drive technology for industrial applications.",
       "children": [
         {
           "id": "p4-1",
-          "name": "Safety Controllers",
+          "name": "X-Series",
           "type": "subcategory",
-          "image": "/images/products/safety-plc.jpg",
-          "description": "Certified safety PLCs meeting highest safety standards.",
+          "image": "/images/products/x-series.jpg",
+          "description": "X-Series variable frequency drives.",
           "children": [
             {
               "id": "p4-1-1",
-              "name": "SafeGuard PLC SIL 3",
+              "name": "X100",
               "type": "product",
-              "image": "/images/products/safeguard.jpg",
-              "description": "Safety PLC certified to SIL 3 / PLe for critical safety applications.",
+              "image": "/images/products/x100.jpg",
+              "description": "X100 VFD for general purpose applications.",
               "details": {
                 "features": [
-                  "Safety Integrity Level SIL 3",
-                  "Performance Level PLe, Category 4",
-                  "Redundant processor architecture",
-                  "Integrated safety and standard I/O",
-                  "Comprehensive safety function library",
-                  "Diagnostic coverage > 99%",
-                  "TÜV certified"
+                  "Energy efficient",
+                  "Easy operation",
+                  "Compact design",
+                  "Multiple control modes"
                 ],
                 "specs": {
-                  "Safety Level": "SIL 3, PLe, Cat 4",
-                  "Voltage": "24V DC",
-                  "Safety I/O": "Up to 512 points",
-                  "Response Time": "< 20ms",
-                  "Operating Temperature": "-25°C to 60°C",
-                  "Certifications": "TÜV, UL, CE, IEC 61508",
-                  "MTBF": "> 50 years",
-                  "Warranty": "5 Years"
+                  "Power Range": "0.4kW to 22kW",
+                  "Input Voltage": "220V/380V AC",
+                  "Output Frequency": "0-400 Hz",
+                  "Protection": "IP20",
+                  "Warranty": "2 Years"
                 },
                 "downloads": [
                   {
-                    "label": "Safety Manual",
-                    "file": "/downloads/safeguard-manual.pdf"
-                  },
-                  {
-                    "label": "Certification Documents",
-                    "file": "/downloads/safeguard-certs.pdf"
+                    "label": "Product Catalog",
+                    "file": "/downloads/x100-catalog.pdf"
                   }
                 ]
               }
-            }
-          ]
-        },
-        {
-          "id": "p4-2",
-          "name": "Safety Sensors",
-          "type": "subcategory",
-          "image": "/images/products/safety-sensors.jpg",
-          "description": "Safety light curtains, laser scanners, and safety switches.",
-          "children": [
+            },
             {
-              "id": "p4-2-1",
-              "name": "Safety Light Curtain Type 4",
+              "id": "p4-1-2",
+              "name": "X1000",
               "type": "product",
-              "image": "/images/products/light-curtain.jpg",
-              "description": "Type 4 safety light curtain with muting and blanking functions for machine safeguarding.",
+              "image": "/images/products/x1000.jpg",
+              "description": "X1000 VFD for advanced applications.",
               "details": {
                 "features": [
-                  "Type 4 / SIL 3 performance",
-                  "Muting function for material handling",
-                  "Floating blanking capability",
-                  "Aligned LED indicators",
-                  "Cascadable up to 4 units",
-                  "Diagnostic outputs",
-                  "M12 quick connectors"
+                  "Advanced vector control",
+                  "Built-in PLC",
+                  "Multiple communication options",
+                  "High performance"
                 ],
                 "specs": {
-                  "Safety Category": "Type 4, SIL 3, PLe",
-                  "Protected Height": "300mm to 1800mm",
-                  "Resolution": "14mm / 30mm",
-                  "Range": "0-20 meters",
-                  "Response Time": "< 15ms",
-                  "Protection": "IP65",
-                  "Operating Temperature": "-10°C to 55°C",
-                  "Warranty": "3 Years"
+                  "Power Range": "0.75kW to 630kW",
+                  "Input Voltage": "380V/480V AC",
+                  "Output Frequency": "0-400 Hz",
+                  "Protection": "IP20/IP54",
+                  "Warranty": "2 Years"
                 },
                 "downloads": [
                   {
-                    "label": "Installation Guide",
-                    "file": "/downloads/light-curtain-install.pdf"
+                    "label": "Product Catalog",
+                    "file": "/downloads/x1000-catalog.pdf"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "p4-1-3",
+              "name": "X600",
+              "type": "product",
+              "image": "/images/products/x600.jpg",
+              "description": "X600 VFD for heavy-duty industrial applications.",
+              "details": {
+                "features": [
+                  "Heavy-duty design",
+                  "Maximum performance",
+                  "Advanced diagnostics",
+                  "Network integration"
+                ],
+                "specs": {
+                  "Power Range": "22kW to 1000kW",
+                  "Input Voltage": "380V/480V/690V AC",
+                  "Output Frequency": "0-400 Hz",
+                  "Protection": "IP54",
+                  "Warranty": "2 Years"
+                },
+                "downloads": [
+                  {
+                    "label": "Product Catalog",
+                    "file": "/downloads/x600-catalog.pdf"
                   }
                 ]
               }
@@ -355,52 +718,42 @@
     },
     {
       "id": "p5",
-      "name": "Process Instrumentation",
+      "name": "Spindle Motors",
       "type": "category",
-      "image": "/images/products/instrumentation.jpg",
-      "description": "Precision measurement and control instrumentation for process industries.",
+      "image": "/images/products/spindle-motors.jpg",
+      "description": "High-performance spindle motors for machining applications.",
       "children": [
         {
           "id": "p5-1",
-          "name": "Pressure Transmitters",
+          "name": "High-Frequency Motor",
           "type": "subcategory",
-          "image": "/images/products/pressure.jpg",
-          "description": "High-accuracy pressure measurement for critical processes.",
+          "image": "/images/products/high-frequency-motor.jpg",
+          "description": "High-frequency motors for high-speed applications.",
           "children": [
             {
               "id": "p5-1-1",
-              "name": "PressurePro PT-1000",
+              "name": "CS",
               "type": "product",
-              "image": "/images/products/pt1000.jpg",
-              "description": "Premium pressure transmitter with ±0.05% accuracy and 10-year stability.",
+              "image": "/images/products/cs-hf-motor.jpg",
+              "description": "CS high-frequency motor for precision machining.",
               "details": {
                 "features": [
-                  "Accuracy ±0.05% of span",
-                  "10-year stability guarantee",
-                  "HART, PROFIBUS PA, Foundation Fieldbus",
-                  "Graphical display with push-button configuration",
-                  "Overpressure protection 400%",
-                  "SIL 2/3 certification",
-                  "Stainless steel wetted parts"
+                  "High-speed operation",
+                  "Low vibration",
+                  "Precision bearings",
+                  "Water cooling"
                 ],
                 "specs": {
-                  "Pressure Range": "0-1 bar to 0-600 bar",
-                  "Accuracy": "±0.05% of calibrated span",
-                  "Operating Temperature": "-40°C to 85°C",
-                  "Process Connection": "1/2\" NPT, G1/2, various flanges",
-                  "Output": "4-20mA + HART / Digital fieldbus",
-                  "Protection": "IP67 / IP68",
-                  "Material": "316L Stainless Steel",
-                  "Warranty": "10 Years"
+                  "Power Range": "1.5kW to 18kW",
+                  "Speed Range": "6000-24000 RPM",
+                  "Voltage": "380V AC",
+                  "Protection": "IP54",
+                  "Warranty": "2 Years"
                 },
                 "downloads": [
                   {
-                    "label": "Operating Manual",
-                    "file": "/downloads/pt1000-manual.pdf"
-                  },
-                  {
-                    "label": "Calibration Certificate",
-                    "file": "/downloads/pt1000-calibration.pdf"
+                    "label": "Product Catalog",
+                    "file": "/downloads/cs-hf-motor-catalog.pdf"
                   }
                 ]
               }
@@ -409,41 +762,63 @@
         },
         {
           "id": "p5-2",
-          "name": "Flow Meters",
+          "name": "Spindle Motor",
           "type": "subcategory",
-          "image": "/images/products/flow.jpg",
-          "description": "Precision flow measurement for liquids and gases.",
+          "image": "/images/products/spindle-motor.jpg",
+          "description": "Standard spindle motors for machining centers.",
           "children": [
             {
               "id": "p5-2-1",
-              "name": "FlowMaster Electromagnetic FM-500",
+              "name": "S1 Series",
               "type": "product",
-              "image": "/images/products/fm500.jpg",
-              "description": "Electromagnetic flow meter with exceptional accuracy and minimal pressure drop.",
+              "image": "/images/products/s1-series.jpg",
+              "description": "S1 series spindle motor for general machining.",
               "details": {
                 "features": [
-                  "Accuracy ±0.2% of reading",
-                  "Bi-directional flow measurement",
-                  "No moving parts, no pressure drop",
-                  "Self-diagnostic functions",
-                  "Empty pipe detection",
-                  "ATEX / IECEx certified for hazardous areas",
-                  "Multiple liner and electrode materials"
+                  "Reliable performance",
+                  "Easy maintenance",
+                  "Air cooling",
+                  "Standard interface"
                 ],
                 "specs": {
-                  "Pipe Size": "DN10 to DN2000",
-                  "Accuracy": "±0.2% of reading",
-                  "Flow Velocity": "0.01 to 10 m/s",
-                  "Process Temperature": "-20°C to 180°C",
-                  "Process Pressure": "PN10, PN16, PN25, PN40",
-                  "Output": "4-20mA, Pulse, HART, Modbus, PROFIBUS",
-                  "Protection": "IP67 / IP68",
-                  "Warranty": "5 Years"
+                  "Power Range": "1.5kW to 7.5kW",
+                  "Speed Range": "3000-12000 RPM",
+                  "Voltage": "380V AC",
+                  "Protection": "IP54",
+                  "Warranty": "2 Years"
                 },
                 "downloads": [
                   {
-                    "label": "Installation Manual",
-                    "file": "/downloads/fm500-install.pdf"
+                    "label": "Product Catalog",
+                    "file": "/downloads/s1-series-catalog.pdf"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "p5-2-2",
+              "name": "S2 Series",
+              "type": "product",
+              "image": "/images/products/s2-series.jpg",
+              "description": "S2 series spindle motor for heavy-duty machining.",
+              "details": {
+                "features": [
+                  "Heavy-duty construction",
+                  "High torque output",
+                  "Water cooling",
+                  "Long service life"
+                ],
+                "specs": {
+                  "Power Range": "5.5kW to 22kW",
+                  "Speed Range": "1500-8000 RPM",
+                  "Voltage": "380V AC",
+                  "Protection": "IP54",
+                  "Warranty": "2 Years"
+                },
+                "downloads": [
+                  {
+                    "label": "Product Catalog",
+                    "file": "/downloads/s2-series-catalog.pdf"
                   }
                 ]
               }
@@ -454,221 +829,38 @@
     },
     {
       "id": "p6",
-      "name": "Energy Management",
+      "name": "FieldBus",
       "type": "category",
-      "image": "/images/products/energy.png",
-      "description": "Smart energy monitoring and management solutions for optimized consumption.",
+      "image": "/images/products/fieldbus.jpg",
+      "description": "Industrial networking and communication solutions.",
       "children": [
         {
           "id": "p6-1",
-          "name": "Power Monitoring",
-          "type": "subcategory",
-          "image": "/images/products/power-monitoring.jpg",
-          "description": "Advanced power quality and energy monitoring devices.",
-          "children": [
-            {
-              "id": "p6-1-1",
-              "name": "EnergyMonitor Pro EM-3000",
-              "type": "product",
-              "image": "/images/products/em3000.jpg",
-              "description": "Multi-channel energy meter with power quality analysis and cloud connectivity.",
-              "details": {
-                "features": [
-                  "32 measurement channels",
-                  "Class 0.2S accuracy",
-                  "Power quality monitoring to IEC 61000-4-30 Class A",
-                  "Harmonics analysis up to 63rd order",
-                  "Event recording and waveform capture",
-                  "Cloud connectivity for remote monitoring",
-                  "Modbus TCP, MQTT, OPC UA"
-                ],
-                "specs": {
-                  "Accuracy": "Class 0.2S (IEC 62053-22)",
-                  "Voltage Range": "57-480V AC L-N",
-                  "Current Inputs": "Up to 32 channels via CTs",
-                  "Sampling Rate": "512 samples/cycle",
-                  "Communication": "Ethernet, RS485, Modbus TCP, MQTT",
-                  "Display": "7-inch color touchscreen",
-                  "Operating Temperature": "-20°C to 60°C",
-                  "Warranty": "5 Years"
-                },
-                "downloads": [
-                  {
-                    "label": "User Manual",
-                    "file": "/downloads/em3000-manual.pdf"
-                  },
-                  {
-                    "label": "Setup Guide",
-                    "file": "/downloads/em3000-setup.pdf"
-                  }
-                ]
+          "name": "Ethernet Switches",
+          "type": "product",
+          "image": "/images/products/ethernet-switches.jpg",
+          "description": "Industrial Ethernet switches for reliable network connectivity.",
+          "details": {
+            "features": [
+              "Industrial-grade design",
+              "Multiple ports",
+              "VLAN support",
+              "Redundancy protocols"
+            ],
+            "specs": {
+              "Ports": "8/16/24 ports",
+              "Speed": "10/100/1000 Mbps",
+              "Operating Temperature": "-40°C to 75°C",
+              "Protection": "IP30",
+              "Warranty": "5 Years"
+            },
+            "downloads": [
+              {
+                "label": "Product Catalog",
+                "file": "/downloads/ethernet-switches-catalog.pdf"
               }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "p7",
-      "name": "Robotics & Motion",
-      "type": "category",
-      "image": "/images/products/robotics.png",
-      "description": "Industrial robotics and advanced motion control solutions.",
-      "children": [
-        {
-          "id": "p7-1",
-          "name": "Industrial Robots",
-          "type": "subcategory",
-          "image": "/images/products/robots.jpg",
-          "description": "6-axis industrial robots for assembly, welding, and material handling.",
-          "children": [
-            {
-              "id": "p7-1-1",
-              "name": "RoboArm 6-Axis RA-600",
-              "type": "product",
-              "image": "/images/products/ra600.jpg",
-              "description": "Versatile 6-axis robot with 600kg payload and 2.8m reach for heavy-duty applications.",
-              "details": {
-                "features": [
-                  "600kg payload capacity",
-                  "2.8m reach radius",
-                  "Repeatability ±0.08mm",
-                  "IP67 protection (optional)",
-                  "Integrated vision system ready",
-                  "Force torque sensor compatible",
-                  "Easy programming with teach pendant"
-                ],
-                "specs": {
-                  "Axes": "6",
-                  "Payload": "600 kg",
-                  "Reach": "2800 mm",
-                  "Repeatability": "±0.08 mm",
-                  "Max Speed": "J1: 120°/s",
-                  "Protection": "IP54 (IP67 optional)",
-                  "Mounting": "Floor, wall, ceiling, angle",
-                  "Warranty": "2 Years"
-                },
-                "downloads": [
-                  {
-                    "label": "Robot Manual",
-                    "file": "/downloads/ra600-manual.pdf"
-                  },
-                  {
-                    "label": "Programming Guide",
-                    "file": "/downloads/ra600-programming.pdf"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "p8",
-      "name": "Software & Analytics",
-      "type": "category",
-      "image": "/images/products/software.png",
-      "description": "Industrial software solutions for automation, analytics, and digital transformation.",
-      "children": [
-        {
-          "id": "p8-1",
-          "name": "SCADA Systems",
-          "type": "subcategory",
-          "image": "/images/products/scada.jpg",
-          "description": "Supervisory control and data acquisition systems for plant-wide monitoring.",
-          "children": [
-            {
-              "id": "p8-1-1",
-              "name": "IndustrialVision SCADA Pro",
-              "type": "product",
-              "image": "/images/products/scada-pro.jpg",
-              "description": "Enterprise SCADA platform with unlimited tags, advanced analytics, and mobile access.",
-              "details": {
-                "features": [
-                  "Unlimited tags and clients",
-                  "Web-based thin client access",
-                  "Mobile apps for iOS and Android",
-                  "Built-in historian with data compression",
-                  "Advanced alarming with intelligent filtering",
-                  "Recipe management",
-                  "Integration with MES and ERP systems",
-                  "OPC UA, Modbus, PROFINET drivers included"
-                ],
-                "specs": {
-                  "Platform": "Windows Server 2019/2022, Linux",
-                  "Database": "SQL Server, PostgreSQL, MySQL",
-                  "Client Access": "Web browser, desktop app, mobile",
-                  "Tag Capacity": "Unlimited",
-                  "Redundancy": "Hot standby server redundancy",
-                  "Security": "Role-based access, SSL/TLS, audit trail",
-                  "Support": "24/7 technical support",
-                  "License": "Perpetual or subscription"
-                },
-                "downloads": [
-                  {
-                    "label": "Product Overview",
-                    "file": "/downloads/scada-pro-overview.pdf"
-                  },
-                  {
-                    "label": "System Requirements",
-                    "file": "/downloads/scada-pro-requirements.pdf"
-                  },
-                  {
-                    "label": "Trial Version",
-                    "file": "/downloads/scada-pro-trial.exe"
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "id": "p8-2",
-          "name": "Analytics & AI",
-          "type": "subcategory",
-          "image": "/images/products/analytics.jpg",
-          "description": "AI-powered analytics for predictive maintenance and process optimization.",
-          "children": [
-            {
-              "id": "p8-2-1",
-              "name": "PredictAI Platform",
-              "type": "product",
-              "image": "/images/products/predictai.jpg",
-              "description": "AI-powered predictive maintenance platform reducing downtime by up to 70%.",
-              "details": {
-                "features": [
-                  "Machine learning algorithms for failure prediction",
-                  "Real-time anomaly detection",
-                  "Remaining useful life (RUL) estimation",
-                  "Root cause analysis",
-                  "Integration with existing SCADA and historians",
-                  "Mobile notifications",
-                  "Customizable dashboards and reports"
-                ],
-                "specs": {
-                  "Deployment": "Cloud, on-premise, hybrid",
-                  "Data Sources": "OPC UA, MQTT, REST API, CSV import",
-                  "ML Models": "Deep learning, random forest, XGBoost",
-                  "Scalability": "1 to 10,000+ assets",
-                  "Updates": "Model retraining every 24 hours",
-                  "API": "RESTful API for integration",
-                  "Support": "Standard or premium support plans",
-                  "License": "Per asset, annual subscription"
-                },
-                "downloads": [
-                  {
-                    "label": "Platform Brochure",
-                    "file": "/downloads/predictai-brochure.pdf"
-                  },
-                  {
-                    "label": "Case Studies",
-                    "file": "/downloads/predictai-cases.pdf"
-                  }
-                ]
-              }
-            }
-          ]
+            ]
+          }
         }
       ]
     }
