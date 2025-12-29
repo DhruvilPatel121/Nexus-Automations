@@ -134,22 +134,12 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                Phone:{" "}
+                Email:{" "}
                 <a
-                  href="tel:+15551234567"
+                  href="mailto:info@pixtechnology.com"
                   className="hover:text-[#009999] transition-colors"
                 >
-                  +91 8460464710
-                </a>
-              </li>
-              <li>24/7 Technical Support</li>
-              <li>
-                Emergency:{" "}
-                <a
-                  href="tel:+15559998888"
-                  className="hover:text-[#009999] transition-colors"
-                >
-                  +91 8460464710
+                  support@pixtechnology.com
                 </a>
               </li>
             </ul>
@@ -163,15 +153,7 @@ export default function Footer() {
             </span>
             <span className="hidden sm:inline">|</span>
             <span>
-              Hand Crafted By{" "}
-              <a
-                href="https://shivvilonsolutions.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#009999] hover:underline hover:text-[#00cccc] transition-colors font-medium"
-              >
-                Shivvilon Solutions
-              </a>
+                Shenzhen pix sci. & Tech. Co.
             </span>
           </p>
         </div>
