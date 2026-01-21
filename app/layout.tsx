@@ -15,20 +15,7 @@ export const metadata: Metadata = {
     "Leading provider of industrial automation, control systems, drives, motors, and power distribution solutions",
   generator: "Handcrafted by the Dhruvil Bhuva",
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
+    icon: "/favicon.ico",
     apple: "/apple-icon.png",
   },
 }
