@@ -27,7 +27,7 @@ export default function ContactPage() {
   const handleChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
-    >
+    >,
   ) => {
     setFormData({
       ...formData,
@@ -63,9 +63,7 @@ export default function ContactPage() {
             <a
               href="tel:+15551234567"
               className="text-[#009999] font-semibold text-lg hover:text-[#007373] transition-colors"
-            >
-              +91 8460464710
-            </a>
+            ></a>
             <p className="text-sm text-gray-500 mt-2">
               Monday - Friday: 8:00 AM - 6:00 PM EST
             </p>
@@ -103,14 +101,14 @@ export default function ContactPage() {
             <p className="text-gray-600 mb-4">Our corporate headquarters</p>
             <address className="not-italic text-gray-700 leading-relaxed">
               <strong>Pix Technology Inc.</strong>
-              <br />
+              {/* <br />
               Samrat Industrial Area
               <br />
               Technology Park, Gondal Road
               <br />
               Rajkot-360003, Gujarat
               <br />
-              India
+              India */}
             </address>
           </div>
         </div>
@@ -139,9 +137,7 @@ export default function ContactPage() {
                 <p className="text-gray-600">
                   24/7 Emergency Support Available
                 </p>
-                <p className="text-[#009999] font-semibold mt-2">
-                  Call: +91 8460464710
-                </p>
+                <p className="text-[#009999] font-semibold mt-2">Call:</p>
               </div>
             </div>
           </div>
